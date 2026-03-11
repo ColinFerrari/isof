@@ -1,6 +1,6 @@
 # isof
 
-Python reader and verifier for the **ISOF v1.0** format, an open standard for exchanging geochemical isotopic data.
+Python reader and verifier for the **ISOF v1.0** (**IS**otopic **O**pen **F**ormat) format, an open standard for exchanging geochemical isotopic data.
 
 This format allows exchanging in a single file the isotopic data along with all associated metadata (analytical methods used for each sample, purification yields, analysis pipeline...), while enabling traceability of modifications once files are produced and certifying the origin of the file (laboratory certification).
 
