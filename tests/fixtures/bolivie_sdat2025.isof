@@ -1,0 +1,204 @@
+{
+  "isof_version": "1.0",
+  "created_at": "2025-03-10T14:32:00.000Z",
+  "created_by": {
+    "software": "IsoFind",
+    "software_version": "1.2.0",
+    "operator": "Colin Ferrari",
+    "organisation": "IsoFind SAS"
+  },
+  "project": {
+    "name": "Traçabilité Sb — Mission SDAT 2025",
+    "reference": "SDAT-2025-007",
+    "client": null,
+    "classification": null,
+    "notes": null
+  },
+  "samples": [
+    {
+      "id": "1",
+      "name": "BOL-24-01",
+      "classification": "source",
+      "material_type": "minerai",
+      "sector": "Bolivie",
+      "project": "SDAT-2025",
+      "latitude": -17.3895,
+      "longitude": -66.1568,
+      "altitude_m": 3650,
+      "collection_date": "2024-08-15",
+      "collector": "C. Ferrari",
+      "description": "Stibine massive, veine principale, niveau -120m",
+      "workflow_stage": "validated",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.74815,
+          "ratio_2se": 8e-05,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": "NIST SRM 3102a",
+          "n_cycles": 40,
+          "session_date": "2024-10-03",
+          "instrument": "MC-ICP-MS Thermo Neptune",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "BOL-24-02",
+      "classification": "fille",
+      "material_type": "concentré",
+      "sector": "Bolivie",
+      "project": "SDAT-2025",
+      "latitude": -17.3901,
+      "longitude": -66.1572,
+      "altitude_m": 3640,
+      "collection_date": "2024-08-15",
+      "collector": "C. Ferrari",
+      "description": "Concentré flotation 95%, usine San José",
+      "workflow_stage": "validated",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.74823,
+          "ratio_2se": 0.00011,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": "NIST SRM 3102a",
+          "n_cycles": 40,
+          "session_date": "2024-10-03",
+          "instrument": "MC-ICP-MS Thermo Neptune",
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "methods": {
+    "chromato-sb-ag1": {
+      "name": "Chromatographie Sb AG1-X8",
+      "type": "purification",
+      "element": "Sb",
+      "target_matrices": [
+        "minerai",
+        "concentré",
+        "solution"
+      ],
+      "duration": "4h",
+      "duration_hours": 4,
+      "yield_min_pct": 88,
+      "yield_max_pct": 97,
+      "equipment": {
+        "column": "Bio-Rad AG1-X8 (100-200 mesh)",
+        "resin": "AG1-X8",
+        "resin_volume_ml": 2.0,
+        "reagents": "HCl 6M, HF 0.5M",
+        "temperature": "20°C"
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Conditionnement",
+          "detail": "HCl 6M, 5 mL",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Chargement",
+          "detail": "Échantillon en HCl 6M",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "Lavage Sb(III)",
+          "detail": "HCl 6M + HF 0.5M, 10 mL",
+          "final": false
+        },
+        {
+          "num": 4,
+          "title": "Élution Sb",
+          "detail": "HCl 0.5M, 8 mL",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": "10.1039/C9JA00288J",
+        "citation": "Lobo et al. (2019) J. Anal. At. Spectrom."
+      },
+      "notes": "Protocole adapté pour matrices sulfurées riches en Fe"
+    }
+  },
+  "pipelines": {
+    "sb-minerai": {
+      "name": "Pipeline Sb — minerai",
+      "element": "Sb",
+      "description": "Digestion + purification + analyse MC-ICP-MS pour minerais antimonifères",
+      "stages": [
+        {
+          "order": 1,
+          "method_key": "digestion-hno3-hf",
+          "label": "Digestion acide"
+        },
+        {
+          "order": 2,
+          "method_key": "chromato-sb-ag1",
+          "label": "Purification Sb"
+        },
+        {
+          "order": 3,
+          "method_key": "mc-icpms",
+          "label": "Analyse isotopique"
+        }
+      ]
+    }
+  },
+  "purification": {
+    "1_Sb": {
+      "value_pct": 93.4,
+      "date": "2024-10-02",
+      "operator": "C. Ferrari",
+      "method_key": "chromato-sb-ag1",
+      "notes": null
+    },
+    "2_Sb": {
+      "value_pct": 91.7,
+      "date": "2024-10-02",
+      "operator": "C. Ferrari",
+      "method_key": "chromato-sb-ag1",
+      "notes": null
+    }
+  },
+  "assignments": [
+    {
+      "sample_id": "1",
+      "method_key": "chromato-sb-ag1",
+      "pipeline_key": "sb-minerai",
+      "assigned_at": "2024-10-01T08:00:00Z",
+      "assigned_by": "C. Ferrari"
+    },
+    {
+      "sample_id": "2",
+      "method_key": "chromato-sb-ag1",
+      "pipeline_key": "sb-minerai",
+      "assigned_at": "2024-10-01T08:00:00Z",
+      "assigned_by": "C. Ferrari"
+    }
+  ],
+  "signature": {
+    "level": 1,
+    "algorithm": "SHA-256",
+    "scope": [
+      "samples",
+      "methods",
+      "purification"
+    ],
+    "hash": "7c321c294870968cbc5db4845b618ec369161d0ab9606eb5a1765e521360d2be",
+    "signed_at": "2025-03-10T14:32:01.000Z",
+    "signed_by": "IsoFind SAS",
+    "contact": null
+  }
+}

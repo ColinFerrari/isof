@@ -1,0 +1,419 @@
+{
+  "isof_version": "1.0",
+  "created_at": "2026-03-11T13:51:07.663Z",
+  "created_by": {
+    "software": "IsoFind",
+    "software_version": null,
+    "operator": "Colin Ferrari",
+    "organisation": "IsoFind"
+  },
+  "project": {
+    "name": "Test ISOF 1",
+    "reference": "ISOF 1",
+    "client": "GitHub",
+    "classification": null,
+    "notes": "Simple Hash test for the GitHub Repo"
+  },
+  "samples": [
+    {
+      "id": "20",
+      "name": "Chateau Belveze",
+      "classification": "Source",
+      "material_type": "Food",
+      "sector": "Industrial",
+      "project": "Vins de France",
+      "latitude": 43.1287,
+      "longitude": 2.0941,
+      "altitude_m": null,
+      "collection_date": null,
+      "collector": null,
+      "description": null,
+      "workflow_stage": "preparation",
+      "isotope_data": [
+        {
+          "element": "Cu",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Foret Sumatra Nord",
+      "classification": "Source",
+      "material_type": "Wood",
+      "sector": "Industrial",
+      "project": "Deforestation watch",
+      "latitude": 1.6598,
+      "longitude": 100.297,
+      "altitude_m": null,
+      "collection_date": null,
+      "collector": null,
+      "description": null,
+      "workflow_stage": "preparation",
+      "isotope_data": [
+        {
+          "element": "Zn",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Échantillon Métal D",
+      "classification": "Unclassified",
+      "material_type": "Metal",
+      "sector": "Industry",
+      "project": "Forensics Métaux",
+      "latitude": 31.2304,
+      "longitude": 121.4737,
+      "altitude_m": null,
+      "collection_date": null,
+      "collector": null,
+      "description": null,
+      "workflow_stage": "preparation",
+      "isotope_data": [
+        {
+          "element": "Fe",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Pb",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Zn",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Échantillon Sol C",
+      "classification": "Daughter",
+      "material_type": "Soil",
+      "sector": "Agriculture",
+      "project": "Traçabilité Vin",
+      "latitude": 44.8378,
+      "longitude": -0.5792,
+      "altitude_m": null,
+      "collection_date": null,
+      "collector": null,
+      "description": null,
+      "workflow_stage": "preparation",
+      "isotope_data": [
+        {
+          "element": "Sr",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Pb",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Pb",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Échantillon Rivière B",
+      "classification": "Daughter",
+      "material_type": "Water",
+      "sector": "Environment",
+      "project": "Monitoring Amazonie",
+      "latitude": -3.4653,
+      "longitude": -62.2159,
+      "altitude_m": null,
+      "collection_date": null,
+      "collector": null,
+      "description": null,
+      "workflow_stage": "preparation",
+      "isotope_data": [
+        {
+          "element": "Sr",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Pb",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "O",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Échantillon Mine A",
+      "classification": "Source",
+      "material_type": "Ore",
+      "sector": "Mining",
+      "project": "Étude AMD Pérou",
+      "latitude": -12.0453,
+      "longitude": -75.5241,
+      "altitude_m": null,
+      "collection_date": null,
+      "collector": null,
+      "description": null,
+      "workflow_stage": "preparation",
+      "isotope_data": [
+        {
+          "element": "Pb",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Pb",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Cu",
+          "system": null,
+          "ratio": null,
+          "ratio_2se": null,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": null,
+          "n_cycles": null,
+          "session_date": null,
+          "instrument": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "methods": {
+    "db_method_1": {
+      "name": "Purification Sb",
+      "type": "purification",
+      "element": null,
+      "target_matrices": [
+        "All"
+      ],
+      "duration": "2h",
+      "duration_hours": 2,
+      "yield_min_pct": 85,
+      "yield_max_pct": 100,
+      "equipment": {
+        "column": "shrink-teflon-2ml",
+        "resin": "other",
+        "resin_volume_ml": "0.2",
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Conditionnement",
+          "detail": "HCl 0.5M",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Lavage",
+          "detail": "H2O",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    }
+  },
+  "pipelines": {},
+  "purification": {},
+  "assignments": [
+    {
+      "sample_id": "20",
+      "method_key": "db_method_1",
+      "pipeline_key": null,
+      "assigned_at": null,
+      "assigned_by": null
+    },
+    {
+      "sample_id": "19",
+      "method_key": "db_method_1",
+      "pipeline_key": null,
+      "assigned_at": null,
+      "assigned_by": null
+    },
+    {
+      "sample_id": "15",
+      "method_key": "db_method_1",
+      "pipeline_key": null,
+      "assigned_at": null,
+      "assigned_by": null
+    },
+    {
+      "sample_id": "14",
+      "method_key": "db_method_1",
+      "pipeline_key": null,
+      "assigned_at": null,
+      "assigned_by": null
+    },
+    {
+      "sample_id": "13",
+      "method_key": "db_method_1",
+      "pipeline_key": null,
+      "assigned_at": null,
+      "assigned_by": null
+    }
+  ],
+  "signature": {
+    "level": 2,
+    "algorithm": "ECDSA-P256",
+    "hash_algorithm": "SHA-256",
+    "signed_scope": [
+      "samples",
+      "methods",
+      "purification"
+    ],
+    "signature_b64": "MEYCIQDu4oOwBDCSe5niwLvo33UlpFqbVdov5c2ocJWd0Fp9mAIhAI+815fuxaDb+iNyXDO3WixRBgW00SzScq22HZ4/9jZ7",
+    "certificate_chain": [
+      "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlDSWpDQ0FjaWdBd0lCQWdJVWN1dlhzWDJqaXVTT2pwNzlodGQ5cSsrZk5oUXdDZ1lJS29aSXpqMEVBd0l3DQpnYVV4Q3pBSkJnTlZCQVlUQWtaU01SSXdFQVlEVlFRSURBbFBZMk5wZEdGdWFXVXhGREFTQmdOVkJBb01DMGx6DQpiMFpwYm1RZ1UwRlRNVEF3TGdZRFZRUUxEQ2RKYzI5R2FXNWtJRWx6YzNWcGJtY2dRMlZ5ZEdsbWFXTmhkR2x2DQpiaUJCZFhSb2IzSnBkSGt4R3pBWkJnTlZCQU1NRWtsemIwWnBibVFnU1hOemRXbHVaeUJEUVRFZE1Cc0dDU3FHDQpTSWIzRFFFSkFSWU9jR3RwUUdsemIyWnBibVF1YVc4d0hoY05Nall3TXpFd01UWXhOakF3V2hjTk1qY3dNekV3DQpNVFl4TmpBd1dqQTRNUkl3RUFZRFZRUUREQWxNWVdKdklGUmxjM1F4RlRBVEJnTlZCQW9NREVsemIwWnBibVFnDQpWR1Z6ZERFTE1Ba0dBMVVFQmhNQ1JsSXdXVEFUQmdjcWhrak9QUUlCQmdncWhrak9QUU1CQndOQ0FBUzNTSkx6DQo2RTFBd3JHeDVTR0JkYzFsTDNwZlNWb1V5YVBWODRzVkQzczIvelZWYmtPK0wwQ0ZEaTRZM0txRS9hV2tweGhFDQpqU1Jjd1BzaWVBNnJpVzhibzBJd1FEQWRCZ05WSFE0RUZnUVVkeENKbkFvWUsrMWp6U3N1VFdLQ3B1Wkp5cW93DQpId1lEVlIwakJCZ3dGb0FVWGpGY0ZUWXN2cTZ5WjlSQW5PKzhvdDZqTWRZd0NnWUlLb1pJemowRUF3SURTQUF3DQpSUUlnZURMeThOU0NjUVB0UWpmUGlsdTFaUTJkUXRGTEVJZnFMOUUzSjZna2hVa0NJUUN0MXhuK20rTkh0YUhJDQpSc2dhWkRUU2ZWR2FUTkthNEdBa2lUK3hzRmdPTnc9PQ0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ0K",
+      "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVwekNDQW8rZ0F3SUJBZ0lDRUFBd0RRWUpLb1pJaHZjTkFRRUxCUUF3Z2E0eEN6QUpCZ05WQkFZVEFrWlMKTVJJd0VBWURWUVFJREFsUFkyTnBkR0Z1YVdVeERUQUxCZ05WQkFjTUJFWnZhWGd4RkRBU0JnTlZCQW9NQzBsegpiMFpwYm1RZ1UwRlRNUzB3S3dZRFZRUUxEQ1JKYzI5R2FXNWtJRkp2YjNRZ1EyVnlkR2xtYVdOaGRHbHZiaUJCCmRYUm9iM0pwZEhreEdEQVdCZ05WQkFNTUQwbHpiMFpwYm1RZ1VtOXZkQ0JEUVRFZE1Cc0dDU3FHU0liM0RRRUoKQVJZT2NHdHBRR2x6YjJacGJtUXVhVzh3SGhjTk1qWXdNekV3TVRRME5ERXlXaGNOTXpFd016QTVNVFEwTkRFeQpXakNCcFRFTE1Ba0dBMVVFQmhNQ1JsSXhFakFRQmdOVkJBZ01DVTlqWTJsMFlXNXBaVEVVTUJJR0ExVUVDZ3dMClNYTnZSbWx1WkNCVFFWTXhNREF1QmdOVkJBc01KMGx6YjBacGJtUWdTWE56ZFdsdVp5QkRaWEowYVdacFkyRjAKYVc5dUlFRjFkR2h2Y21sMGVURWJNQmtHQTFVRUF3d1NTWE52Um1sdVpDQkpjM04xYVc1bklFTkJNUjB3R3dZSgpLb1pJaHZjTkFRa0JGZzV3YTJsQWFYTnZabWx1WkM1cGJ6QlpNQk1HQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VICkEwSUFCSmxGdHNEdi9VVWthaHRUa0syOVdIaWZ1QWtuWWJ6Q2duT3VYWXd2Vmt4N1FHZVl5UnVTMDhjWDlWODUKQUNaNzB5blQ1emdNM3BGVDg0RGRhMzM5eXJ1amdhQXdnWjB3SFFZRFZSME9CQllFRkY0eFhCVTJMTDZ1c21mVQpRSnp2dktMZW96SFdNQjhHQTFVZEl3UVlNQmFBRkFFMEtZMHBPWXR4b2xDQTc0djhrd3d5UEcyUU1CSUdBMVVkCkV3RUIvd1FJTUFZQkFmOENBUUF3RGdZRFZSMFBBUUgvQkFRREFnRUdNRGNHQTFVZEh3UXdNQzR3TEtBcW9DaUcKSm1oMGRIQnpPaTh2Y0d0cExtbHpiMlpwYm1RdWFXOHZZM0pzTDNKdmIzUXRZMkV1WTNKc01BMEdDU3FHU0liMwpEUUVCQ3dVQUE0SUNBUUFSRmtTd3lNeWxaNEdQVG9sbEQ1RUFvUkEza2MxOTMrc1dFbC83cVF3SVB6OEhCYnBBCmtxU2VIMElFK0lVazIxZW1jd2w5YTVRb1RzTnFqMmI4YWQzUHhQWUprY1E3TVF4b0hQYmphcnhRWi9OWTl0WXYKQWRWUDhYZjJJTU5iTWlZVndFb2x4SThTaXBNZDhqQXpGaTZqTkliazFCYmp5U21CTGZ4TXNHem1IQjk4Sm1vQwpkZ1BBTTcwUXVObEkwQlNGSDdtTm5UOHl1ZnpsQ1NnNjl6bTZQTHVqWUtENGFWc21xSmZFanJLb21Jb2FFdVZLCmY0UWdQRFM1bWU1OEVPRHBsQU5WcThDWitPTVRzdkh0eExVd1Y2VlNiRHVrNHJHN2hWZ3dYbkgxWmdVdEdLb2gKeERzVEdsR21JMUkzR1Z5SUZoOFlXWVcwWDR1UHliSHNvUXRiSXN2WTJxdkp3RnF2UHkraG4zTUhUNndYN2lzNQpFeWFKS1l4dnJ0MEJ4TzJ5OVZCdXQybkkyaHhmWmticVVsZHBiQWpLUWlaUHFhZHdlNHl2c2NsdmdhNVE0L2lyCndDMHM4WlgzYk8rYUs3dnYxWWdjOE42bjdQdW1WeVFLTEJadEh5Q3VNaDNqTXJmTmZ2LzhHM1FmSzlKd1VTQ0UKajMrNkQvYzlzZUE0UThxeThPdVUrSFY2cUxLMzFyWHMrTXdkQmI3cnVWWWJteGhIa1dxODJJRnlpalFiOENZQQoxb09pa24zL2ZEYnFKaXhuTFlPZGl5SXZsQlIzcGN6RG05SWRUaXVnbXQ4R20yOXlMV2dhNTErU3FaUCtWQWpJCnNKNVlSaW4ySGtNWUt4d1k4eU9BeXJzQVIrU1BiT3gzOUFTa1JPb2pqbHJNZktRRnZzTHQzb3d2Rmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
+    ],
+    "signed_at": "2026-03-11T13:51:45+00:00",
+    "signed_by": "Labo Test",
+    "contact": null,
+    "revocation": {
+      "crl_url": "https://pki.isofind.io/crl/issuing-ca.crl",
+      "crl_embedded_b64": "LS0tLS1CRUdJTiBYNTA5IENSTC0tLS0tDQpNSUlCWVRDQ0FRY0NBUUV3Q2dZSUtvWkl6ajBFQXdJd2dhVXhDekFKQmdOVkJBWVRBa1pTTVJJd0VBWURWUVFJDQpEQWxQWTJOcGRHRnVhV1V4RkRBU0JnTlZCQW9NQzBsemIwWnBibVFnVTBGVE1UQXdMZ1lEVlFRTERDZEpjMjlHDQphVzVrSUVsemMzVnBibWNnUTJWeWRHbG1hV05oZEdsdmJpQkJkWFJvYjNKcGRIa3hHekFaQmdOVkJBTU1Fa2x6DQpiMFpwYm1RZ1NYTnpkV2x1WnlCRFFURWRNQnNHQ1NxR1NJYjNEUUVKQVJZT2NHdHBRR2x6YjJacGJtUXVhVzhYDQpEVEkyTURNeE1ERTBORFV3TlZvWERUSTJNRFF3T1RFME5EVXdOVnFnTURBdU1COEdBMVVkSXdRWU1CYUFGRjR4DQpYQlUyTEw2dXNtZlVRSnp2dktMZW96SFdNQXNHQTFVZEZBUUVBZ0lRQURBS0JnZ3Foa2pPUFFRREFnTklBREJGDQpBaUVBOGNiOEhhQm1ZU3d3M1U3bE9ZcXA2K0ZjWEdaUmVWSXFEL2owaXRuZ2ZnNENJQ3VmNjRHcUFYUklXcWc2DQphUTVXdzhRY0djZ01ZYzduK2ZlOHo0cGt3TExTDQotLS0tLUVORCBYNTA5IENSTC0tLS0tDQo=",
+      "crl_snapshot_date": "2026-03-11T13:51:45+00:00"
+    }
+  }
+}
