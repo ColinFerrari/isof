@@ -1,6 +1,6 @@
 # isof
 
-Lecteur et vérificateur Python pour le format **ISOF v1.0**, standard ouvert pour l'échange de données isotopiques géochimiques.
+Lecteur et vérificateur Python pour le format **ISOF v1.0** (**IS**otopic **O**pen **F**ormat), standard ouvert pour l'échange de données isotopiques géochimiques.
 
 Ce format permet d'échanger en un seul fichier les données isotopiques, ainsi que toutes les métadonnées qui y sont associées (méthodes analytiques utilisées pour chaque échantillon, rendements de purification, pipeline d'analyse...) tout en permettant une traçabilité sur les modifications des fichiers une fois produits et en permettant de certifier l'origine du fichier (certification par laboratoire).
 
