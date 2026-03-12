@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "isof"
-version = "0.1.0"
-description = "Lecteur et vérificateur du format ISOF — échange de données isotopiques"
+version = "0.1.1"
+description = "Python reader and verifier for the ISOF v1.0 format, open standard for geochemical isotopic data exchange"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-    { name = "IsoFind SAS", email = "colin.ferrari@isofind.tech" }
+    { name = "Colin Ferrari", email = "colin.ferrari@isofind.tech" }
 ]
 keywords = ["isotopes", "geochemistry", "traceability", "forensics", "ISOF"]
 classifiers = [
@@ -45,7 +45,7 @@ dev = [
 Homepage = "https://isofind.tech"
 Repository = "https://github.com/ColinFerrari/isof"
 "Bug Tracker" = "https://github.com/ColinFerrari/isof/issues"
-Specification = "https://isofind.tech/isof-spec" (to come)
+Specification = "https://isofind.tech/isof-spec"
 
 [tool.setuptools.packages.find]
 where = ["."]

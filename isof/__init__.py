@@ -29,7 +29,7 @@ from .models import (
 from .parser import ISOfDocument, load_file, load_string
 from .signature import VerificationResult
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Colin Ferrari"
 __all__ = [
     # Fonctions d'entrée principales

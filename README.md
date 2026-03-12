@@ -6,14 +6,6 @@ This format allows exchanging in a single file the isotopic data along with all 
 
 **Sovereignty and Confidentiality:** Signature verification is a 100% local process. No data is sent to a third-party server for validation.
 
-Why use this parser?
-
-   - **Trust by Design**: Instantly verify if a file has been modified after export (Level 1) or if it truly originates from a certified laboratory (Level 2).
-
-   - **Data Integrity, Locally**: All signature checks are performed 100% offline. Your sensitive research data never leaves your machine.
-
-   - **Science-Ready**: Go from a secure JSON document to a clean Pandas DataFrame in two lines of code, with built-in alerts for suspicious analytical yields.
-
 ```python
 import isof
 
@@ -85,10 +77,10 @@ print(result.reason)     # None if valid, error message otherwise
 
 Two signature levels coexist in the format:
 
-| Level | Mechanism                  | Guarantee                                                      |
-| ----- | -------------------------- | -------------------------------------------------------------- |
-| 1     | SHA-256 over the data      | Integrity, file has not been modified since export            |
-| 2     | ECDSA P-256 + IsoFind PKI  | Authenticity, signed by a laboratory certified by IsoFind     |
+| Level | Mechanism                 | Guarantee                                                 |
+| ----- | ------------------------- | --------------------------------------------------------- |
+| 1     | SHA-256 over the data     | Integrity, file has not been modified since export        |
+| 2     | ECDSA P-256 + IsoFind PKI | Authenticity, signed by a laboratory certified by IsoFind |
 
 Verification works **offline**: IsoFind certificates are embedded in the package.
 
@@ -228,4 +220,4 @@ pytest tests/ -v
 MIT, see [LICENSE](LICENSE).
 
 This package is maintained by [Colin Ferrari](https://isofind.tech).
-The ISOF format is an open standard — third-party contributions and implementations are welcome.
+The ISOF format is an open standard, third-party contributions and implementations are welcome.

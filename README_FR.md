@@ -47,7 +47,7 @@ import isof
 
 report = isof.load("analyse.isof")
 print(report)
-# <ISOfDocument v1.0 — 12 échantillon(s) — IGE Grenoble>
+# <ISOfDocument v1.0 - 12 échantillon(s) - IGE Grenoble>
 ```
 
 Depuis une chaîne JSON (API, base de données) :
@@ -118,7 +118,7 @@ for y in yields:
 # Alertes contamination (rendement > 105 %)
 suspects = report.suspicious_yields()
 for y in suspects:
-    print(f"Contamination possible — {y.sample_id} / {y.element} : {y.value_pct}%")
+    print(f"Contamination possible - {y.sample_id} / {y.element} : {y.value_pct}%")
 ```
 
 ### Méthodes et pipelines
@@ -126,7 +126,7 @@ for y in suspects:
 ```python
 # Méthodes de préparation
 for key, method in report.methods.items():
-    print(f"{key} — {method.name} ({method.type})")
+    print(f"{key} - {method.name} ({method.type})")
     if method.yield_min_pct:
         print(f"  Rendement attendu : {method.yield_min_pct}–{method.yield_max_pct}%")
 
@@ -171,7 +171,7 @@ except ISOfVersionError as e:
 except ISOfParseError as e:
     print(f"Fichier invalide : {e}")
 
-# Signature corrompue vs. absente — deux cas distincts
+# Signature corrompue vs. absente - deux cas distincts
 result = report.verify()
 if result.level == 0:
     print("Pas de signature dans ce fichier")
@@ -217,7 +217,7 @@ pytest tests/ -v
 
 ## Licence
 
-MIT — voir [LICENSE](LICENSE).
+MIT, voir [LICENSE](LICENSE).
 
 Ce package est maintenu par [Colin Ferrari](https://isofind.tech).
 Le format ISOF est un standard ouvert, contributions et implémentations tierces bienvenues.
