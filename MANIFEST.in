@@ -1,0 +1,26 @@
+# Fichiers top-level à inclure dans la sdist.
+# Le wheel ne contient que le package `isof/` de toute façon, ce fichier ne
+# concerne donc que la source distribution.
+
+include LICENSE
+include README.md
+include README_FR.md
+include CHANGELOG.md
+include pyproject.toml
+
+# Certificats de confiance embarqués pour la vérification PKI hors-ligne.
+# Déjà déclarés dans [tool.setuptools.package-data], on les rend aussi
+# explicites ici pour la sdist.
+recursive-include isof/trust *.pem *.md
+
+# Tests et fixtures : utile pour que les utilisateurs puissent relancer la
+# suite depuis la sdist (pip download isof && pytest).
+recursive-include tests *.py
+recursive-include tests/fixtures *.isof *.pem
+
+# Exclusions : artefacts locaux, caches, runners internes à l'env de dev.
+exclude run_tests.py
+exclude build_fixtures.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[cod]
+recursive-exclude * .DS_Store

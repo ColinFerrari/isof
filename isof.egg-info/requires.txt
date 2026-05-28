@@ -1,0 +1,11 @@
+cryptography>=41.0
+
+[dev]
+mypy
+pandas>=1.5
+pytest-cov
+pytest>=7.0
+ruff
+
+[pandas]
+pandas>=1.5

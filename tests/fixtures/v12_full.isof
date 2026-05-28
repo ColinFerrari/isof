@@ -1,0 +1,254 @@
+{
+  "isof_version": "1.2",
+  "created_at": "2026-04-01T10:00:00+00:00",
+  "created_by": {
+    "software": "IsoFind",
+    "software_version": "1.0.0",
+    "operator": "Colin Ferrari",
+    "organisation": "IsoFind SAS"
+  },
+  "project": {
+    "name": "Traçabilité eaux AMD",
+    "reference": "AMD-2026-01",
+    "client": "Agence de l'Eau",
+    "classification": "Unclassified",
+    "notes": null
+  },
+  "samples": [
+    {
+      "id": "101",
+      "name": "CR1",
+      "classification": "fille",
+      "material_type": "Water",
+      "matrix": "Water",
+      "sector": "Environnement",
+      "project": "AMD-2026-01",
+      "latitude": -17.941472,
+      "longitude": -67.100899,
+      "altitude_m": null,
+      "collection_date": "2026-02-15",
+      "collector": "C. Ferrari",
+      "description": "Mix eaux usées urbaines + AMD",
+      "workflow_stage": "validated",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.74852,
+          "ratio_2se": 0.00012,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": "NIST SRM 3102a",
+          "n_cycles": 40,
+          "session_date": "2026-03-01",
+          "instrument": "MC-ICP-MS Thermo Neptune",
+          "notes": null
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 0.45,
+          "uncertainty": 0.02,
+          "display_value": 450.0,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "As",
+          "value_normalized": 0.01255,
+          "uncertainty": null,
+          "display_value": 12.55,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 4.5,
+          "uncertainty": 0.05,
+          "method": "électrode combinée",
+          "measured_at": "2026-02-15T11:30:00Z",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 312.0,
+          "uncertainty": 5.0,
+          "method": "Pt/Ag-AgCl",
+          "measured_at": "2026-02-15T11:30:00Z",
+          "depth_m": null,
+          "notes": null
+        }
+      ],
+      "molecules_data": [
+        {
+          "nom": "PFBA",
+          "cas": "375-22-4",
+          "famille": "PFAS",
+          "valeur": 0.55,
+          "unite": "ng/L",
+          "valeur_ug_l": 0.00055,
+          "incertitude": null,
+          "lod": 0.1,
+          "loq": 0.3,
+          "detecte": true,
+          "mz_mesure": 213.0,
+          "methode": "Orbitrap",
+          "laboratoire": "Labo-Nord",
+          "date_analyse": "2026-04-13",
+          "matrice": "eau",
+          "conforme": true,
+          "seuil_ref": 4.4,
+          "seuil_ref_unit": "µg/L",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "nom": "Atrazine",
+          "cas": "1912-24-9",
+          "famille": "herbicide",
+          "valeur": 0.15,
+          "unite": "µg/L",
+          "valeur_ug_l": 0.15,
+          "incertitude": 0.02,
+          "lod": 0.02,
+          "loq": 0.05,
+          "detecte": true,
+          "mz_mesure": 216.0,
+          "methode": "LC-MS/MS",
+          "laboratoire": "Labo-Nord",
+          "date_analyse": "2026-04-13",
+          "matrice": "eau",
+          "conforme": false,
+          "seuil_ref": 0.1,
+          "seuil_ref_unit": "µg/L",
+          "depth_m": null,
+          "notes": "Dépassement seuil potabilité"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "SJ1",
+      "classification": "source",
+      "material_type": "Water",
+      "matrix": "Water",
+      "sector": "Environnement",
+      "project": "AMD-2026-01",
+      "latitude": -17.961321,
+      "longitude": -67.124131,
+      "altitude_m": null,
+      "collection_date": "2026-02-14",
+      "collector": "C. Ferrari",
+      "description": "AMD mine San José",
+      "workflow_stage": "validated",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.74812,
+          "ratio_2se": 9e-05,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": "NIST SRM 3102a",
+          "n_cycles": 40,
+          "session_date": "2026-03-01",
+          "instrument": "MC-ICP-MS Thermo Neptune",
+          "notes": null
+        }
+      ],
+      "geochem_data": [],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 2.8,
+          "uncertainty": 0.05,
+          "method": "électrode combinée",
+          "measured_at": null,
+          "depth_m": null,
+          "notes": null
+        }
+      ],
+      "molecules_data": []
+    }
+  ],
+  "methods": {
+    "chromato-sb-ag1": {
+      "name": "Chromatographie Sb AG1-X8",
+      "type": "purification",
+      "element": "Sb",
+      "target_matrices": [
+        "Water"
+      ],
+      "duration": "4h",
+      "duration_hours": 4,
+      "yield_min_pct": 88,
+      "yield_max_pct": 97,
+      "equipment": {
+        "column": "Bio-Rad AG1-X8",
+        "resin": "AG1-X8",
+        "resin_volume_ml": 2.0,
+        "reagents": "HCl 6M, HF 0.5M",
+        "temperature": "20°C"
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Conditionnement",
+          "detail": "HCl 6M",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Élution Sb",
+          "detail": "HCl 0.5M",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": "10.1039/C9JA00288J",
+        "citation": "Lobo et al. 2019"
+      },
+      "notes": null
+    }
+  },
+  "pipelines": {},
+  "purification": {
+    "101_Sb": {
+      "value_pct": 94.1,
+      "date": "2026-02-28",
+      "operator": "C. Ferrari",
+      "method_key": "chromato-sb-ag1",
+      "notes": null
+    }
+  },
+  "assignments": [
+    {
+      "sample_id": "101",
+      "method_key": "chromato-sb-ag1",
+      "pipeline_key": null,
+      "assigned_at": "2026-02-20T09:00:00Z",
+      "assigned_by": "C. Ferrari"
+    }
+  ],
+  "signature": {
+    "level": 1,
+    "algorithm": "SHA-256",
+    "scope": [
+      "samples",
+      "methods",
+      "purification"
+    ],
+    "hash": "a5a817308fa762e022a1a255bad7372962014ebf9e4f47806adc4ae99734820b",
+    "signed_at": "2026-04-01T10:00:05+00:00",
+    "signed_by": "IsoFind SAS",
+    "contact": null
+  }
+}

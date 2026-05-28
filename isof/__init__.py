@@ -1,5 +1,5 @@
 """
-isof — Lecteur et vérificateur du format ISOF v1.0 | ISOF v1.0 reader and verificator
+isof — Lecteur et vérificateur du format ISOF v1.0 / v1.1 / v1.2 | ISOF v1.0 / v1.1 / v1.2 reader and verificator
 
 Usage minimal : | minimal use :
 
@@ -10,16 +10,34 @@ Usage minimal : | minimal use :
         print(f"Signé par : {report.signature.signed_by}")
     df = report.to_pandas()
 
+Cas chiffré v1.2 : | v1.2 encrypted case:
+
+    report = isof.load("mission.isof")
+    if report.is_encrypted:
+        priv_pem = open("ma_cle_privee.pem").read()
+        report = report.decrypt(priv_pem)
+    df = report.to_pandas()
+
 Le format ISOF est un standard ouvert pour l'échange de données isotopiques | ISOF format is an open standard for isotope data exchange
 Spécification : https://isofind.tech/isof-spec
 """
 
-from .exceptions import ISOfError, ISOfParseError, ISOfSignatureError, ISOfVersionError
+from .exceptions import (
+    ISOfEncryptionError,
+    ISOfError,
+    ISOfParseError,
+    ISOfSignatureError,
+    ISOfVersionError,
+)
 from .models import (
     Assignment,
     CreatedBy,
+    Encryption,
+    GeochemRecord,
     IsotopeRecord,
     Method,
+    MoleculeRecord,
+    PhysicoRecord,
     Pipeline,
     Project,
     PurificationYield,
@@ -29,17 +47,20 @@ from .models import (
 from .parser import ISOfDocument, load_file, load_string
 from .signature import VerificationResult
 
-__version__ = "0.1.1"
+__version__ = "0.2.0"
 __author__ = "Colin Ferrari"
 __all__ = [
-    # Fonctions d'entrée principales
+    # Fonctions d'entrée principales | Main entry functions
     "load",
     "loads",
     # Document
     "ISOfDocument",
-    # Modèles
+    # Modèles | Models
     "Sample",
     "IsotopeRecord",
+    "GeochemRecord",
+    "PhysicoRecord",
+    "MoleculeRecord",
     "Method",
     "Pipeline",
     "PurificationYield",
@@ -47,12 +68,14 @@ __all__ = [
     "CreatedBy",
     "Project",
     "Signature",
+    "Encryption",
     "VerificationResult",
     # Exceptions
     "ISOfError",
     "ISOfParseError",
     "ISOfVersionError",
     "ISOfSignatureError",
+    "ISOfEncryptionError",
 ]
 
 
@@ -72,7 +95,7 @@ def load(path) -> ISOfDocument:
     Example: | Exemple :
         >>> report = isof.load("analyse_bolivie.isof")
         >>> print(report)
-        <ISOfDocument v1.0 — 12 échantillon(s) — IGE Grenoble>
+        <ISOfDocument v1.2 — 12 échantillon(s) — IGE Grenoble>
     """
     _, doc = load_file(path)
     return doc

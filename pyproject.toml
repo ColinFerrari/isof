@@ -4,14 +4,23 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "isof"
-version = "0.1.1"
-description = "Python reader and verifier for the ISOF v1.0 format, open standard for geochemical isotopic data exchange"
+version = "0.2.0"
+description = "Python reader and verifier for the ISOF v1.0/1.1/1.2 format, open standard for geochemical isotopic, geochemistry, physicochemistry and dissolved molecules data exchange"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
     { name = "Colin Ferrari", email = "colin.ferrari@isofind.tech" }
 ]
-keywords = ["isotopes", "geochemistry", "traceability", "forensics", "ISOF"]
+keywords = [
+    "isotopes",
+    "geochemistry",
+    "physicochemistry",
+    "traceability",
+    "forensics",
+    "ISOF",
+    "encryption",
+    "X25519",
+]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
@@ -23,10 +32,13 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Chemistry",
     "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Security :: Cryptography",
 ]
 requires-python = ">=3.9"
 
-# Dépendances minimales volontairement réduites
+# Dépendances minimales volontairement réduites. `cryptography` est requis
+# pour la signature niveau 2 et le déchiffrement v1.2 : il est désormais
+# systématique (les fichiers chiffrés sont courants en usage terrain).
 dependencies = [
     "cryptography>=41.0",
 ]

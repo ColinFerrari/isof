@@ -83,11 +83,7 @@
       "name": "Chromatographie Sb AG1-X8",
       "type": "purification",
       "element": "Sb",
-      "target_matrices": [
-        "minerai",
-        "concentré",
-        "solution"
-      ],
+      "target_matrices": ["minerai","concentré","solution"],
       "duration": "4h",
       "duration_hours": 4,
       "yield_min_pct": 88,
@@ -100,30 +96,10 @@
         "temperature": "20°C"
       },
       "steps": [
-        {
-          "num": 1,
-          "title": "Conditionnement",
-          "detail": "HCl 6M, 5 mL",
-          "final": false
-        },
-        {
-          "num": 2,
-          "title": "Chargement",
-          "detail": "Échantillon en HCl 6M",
-          "final": false
-        },
-        {
-          "num": 3,
-          "title": "Lavage Sb(III)",
-          "detail": "HCl 6M + HF 0.5M, 10 mL",
-          "final": false
-        },
-        {
-          "num": 4,
-          "title": "Élution Sb",
-          "detail": "HCl 0.5M, 8 mL",
-          "final": true
-        }
+        {"num": 1, "title": "Conditionnement", "detail": "HCl 6M, 5 mL", "final": false},
+        {"num": 2, "title": "Chargement", "detail": "Échantillon en HCl 6M", "final": false},
+        {"num": 3, "title": "Lavage Sb(III)", "detail": "HCl 6M + HF 0.5M, 10 mL", "final": false},
+        {"num": 4, "title": "Élution Sb", "detail": "HCl 0.5M, 8 mL", "final": true}
       ],
       "reference": {
         "doi": "10.1039/C9JA00288J",
@@ -138,64 +114,24 @@
       "element": "Sb",
       "description": "Digestion + purification + analyse MC-ICP-MS pour minerais antimonifères",
       "stages": [
-        {
-          "order": 1,
-          "method_key": "digestion-hno3-hf",
-          "label": "Digestion acide"
-        },
-        {
-          "order": 2,
-          "method_key": "chromato-sb-ag1",
-          "label": "Purification Sb"
-        },
-        {
-          "order": 3,
-          "method_key": "mc-icpms",
-          "label": "Analyse isotopique"
-        }
+        {"order": 1, "method_key": "digestion-hno3-hf", "label": "Digestion acide"},
+        {"order": 2, "method_key": "chromato-sb-ag1", "label": "Purification Sb"},
+        {"order": 3, "method_key": "mc-icpms", "label": "Analyse isotopique"}
       ]
     }
   },
   "purification": {
-    "1_Sb": {
-      "value_pct": 93.4,
-      "date": "2024-10-02",
-      "operator": "C. Ferrari",
-      "method_key": "chromato-sb-ag1",
-      "notes": null
-    },
-    "2_Sb": {
-      "value_pct": 91.7,
-      "date": "2024-10-02",
-      "operator": "C. Ferrari",
-      "method_key": "chromato-sb-ag1",
-      "notes": null
-    }
+    "1_Sb": {"value_pct": 93.4, "date": "2024-10-02", "operator": "C. Ferrari", "method_key": "chromato-sb-ag1", "notes": null},
+    "2_Sb": {"value_pct": 91.7, "date": "2024-10-02", "operator": "C. Ferrari", "method_key": "chromato-sb-ag1", "notes": null}
   },
   "assignments": [
-    {
-      "sample_id": "1",
-      "method_key": "chromato-sb-ag1",
-      "pipeline_key": "sb-minerai",
-      "assigned_at": "2024-10-01T08:00:00Z",
-      "assigned_by": "C. Ferrari"
-    },
-    {
-      "sample_id": "2",
-      "method_key": "chromato-sb-ag1",
-      "pipeline_key": "sb-minerai",
-      "assigned_at": "2024-10-01T08:00:00Z",
-      "assigned_by": "C. Ferrari"
-    }
+    {"sample_id": "1", "method_key": "chromato-sb-ag1", "pipeline_key": "sb-minerai", "assigned_at": "2024-10-01T08:00:00Z", "assigned_by": "C. Ferrari"},
+    {"sample_id": "2", "method_key": "chromato-sb-ag1", "pipeline_key": "sb-minerai", "assigned_at": "2024-10-01T08:00:00Z", "assigned_by": "C. Ferrari"}
   ],
   "signature": {
     "level": 1,
     "algorithm": "SHA-256",
-    "scope": [
-      "samples",
-      "methods",
-      "purification"
-    ],
+    "scope": ["samples","methods","purification"],
     "hash": "7c321c294870968cbc5db4845b618ec369161d0ab9606eb5a1765e521360d2be",
     "signed_at": "2025-03-10T14:32:01.000Z",
     "signed_by": "IsoFind SAS",

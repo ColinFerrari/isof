@@ -1,6 +1,34 @@
+Metadata-Version: 2.1
+Name: isof
+Version: 0.2.0
+Summary: Python reader and verifier for the ISOF v1.0/1.1/1.2 format, open standard for geochemical isotopic, geochemistry, physicochemistry and dissolved molecules data exchange
+Author-email: Colin Ferrari <colin.ferrari@isofind.tech>
+License: MIT
+Project-URL: Homepage, https://isofind.tech
+Project-URL: Repository, https://github.com/ColinFerrari/isof
+Project-URL: Bug Tracker, https://github.com/ColinFerrari/isof/issues
+Project-URL: Specification, https://isofind.tech/isof-spec
+Keywords: isotopes,geochemistry,physicochemistry,traceability,forensics,ISOF,encryption,X25519
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: pandas
+License-File: LICENSE
+
 # isof
 
-Python reader and verifier for the **ISOF v1.0 / v1.1 / v1.2** (**I**sotopic **S**ecure **O**pen **F**ormat) format, an open standard for exchanging geochemical and analytical data.
+Python reader and verifier for the **ISOF v1.0 / v1.1 / v1.2** (**IS**otopic **O**pen **F**ormat) format, an open standard for exchanging geochemical and analytical data.
 
 The ISOF format allows exchanging in a single file:
 

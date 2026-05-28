@@ -14,6 +14,11 @@ Deux niveaux de signature coexistent dans le format :
 
 La vérification niveau 2 fonctionne hors-ligne : le Root CA et l'Issuing CA
 sont inclus dans le package (dossier trust/). Aucune requête réseau n'est faite.
+
+Le mécanisme de signature est strictement identique pour les fichiers v1.0,
+v1.1 et v1.2 : le scope porte sur les blocs de haut niveau (samples, methods,
+purification, created_by...) dont le contenu a pu évoluer, mais la structure
+du bloc signature elle-même n'a pas changé.
 **********************************************************************
 ISOF Signature Verification.
 
@@ -30,6 +35,11 @@ Two signature levels coexist in the format:
 
 Level 2 verification works offline: the Root CA and the Issuing CA
 are included in the package (trust/ folder). No network requests are made.
+
+The signature mechanism is strictly identical across v1.0, v1.1 and v1.2
+files: the scope covers top-level blocks (samples, methods, purification,
+created_by...) whose content may have evolved, but the signature block
+structure itself has not changed.
 """
 
 from __future__ import annotations
@@ -118,7 +128,7 @@ def _canonicalize(payload: dict) -> bytes:
     du format, ce sera indiqué dans la spec ISOF.
     *******************************************************************
     Deterministic serialization for hashing.
-    
+
     We use `separators=(',', ':')` to exactly match
     `JSON.stringify(payload, null, 0)` on the JavaScript side (isoFind software).
     The keys are not sorted here, nor is the JS sorted
@@ -190,7 +200,7 @@ def _verify_level2(raw_doc: dict, sig: Signature) -> VerificationResult:
     except ImportError:
         raise ISOfSignatureError(
             "The 'cryptography' package is required to verify level 2 signatures. "
-            "pip install python-isof  (ou pip install cryptography)"
+            "pip install isof  (ou pip install cryptography)"
         )
 
     if not sig.certificate_pem:
@@ -296,7 +306,7 @@ def _verify_chain(lab_cert, issuing_cert_pem: str | None = None) -> None:
         if not _ISSUING_CA.exists():
             raise ISOfSignatureError(
                 f"Issuing CA IsoFind not found in the package ({_ISSUING_CA}). "
-                "Reinstall python-isof or use trust_store='system'."
+                "Reinstall isof or use trust_store='system'."
             )
         issuing_cert = load_pem_x509_certificate(_ISSUING_CA.read_bytes())
 

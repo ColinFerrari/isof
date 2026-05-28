@@ -1,0 +1,619 @@
+{
+  "isof_version": "1.1",
+  "created_at": "2026-04-20T16:54:17+00:00",
+  "created_by": {
+    "software": "IsoFind",
+    "software_version": "1.0.0",
+    "operator": "Colin Ferrari",
+    "organisation": "IsoFind"
+  },
+  "project": {
+    "name": "Test ISOF V1.2",
+    "reference": null,
+    "client": null,
+    "classification": null,
+    "notes": null
+  },
+  "samples": [
+    {
+      "id": "101",
+      "name": "CR1",
+      "classification": "Daughter",
+      "material_type": "Water",
+      "matrix": "Water",
+      "sector": "Environnement",
+      "project": "isofind_exemple",
+      "latitude": -17.941472,
+      "longitude": -67.100899,
+      "altitude_m": null,
+      "collection_date": null,
+      "collector": null,
+      "description": "Urbain waste water and AMD mix Upstream",
+      "workflow_stage": null,
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.43,
+          "ratio_2se": 0.025,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": "SPEX Mono-isotopic Standard",
+          "n_cycles": null,
+          "session_date": "2020-10-14",
+          "instrument": null,
+          "notes": null
+        },
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.36,
+          "ratio_2se": 0.025,
+          "delta_notation": null,
+          "delta_value": null,
+          "delta_2sd": null,
+          "standard": "SPEX Mono-isotopic Standard",
+          "n_cycles": null,
+          "session_date": "2019-06-05",
+          "instrument": null,
+          "notes": null
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "AS",
+          "value_normalized": 0.01255,
+          "uncertainty": null,
+          "display_value": 12.55,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "SB",
+          "value_normalized": 0.028,
+          "uncertainty": null,
+          "display_value": 28,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "FE",
+          "value_normalized": 14,
+          "uncertainty": null,
+          "display_value": 14,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "MG",
+          "value_normalized": 0.784,
+          "uncertainty": null,
+          "display_value": 0.784,
+          "display_unit": "mg/L",
+          "method": null,
+          "depth_m": null
+        },
+        {
+          "element": "MN",
+          "value_normalized": 0.14,
+          "uncertainty": null,
+          "display_value": 0.14,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "CA",
+          "value_normalized": 44,
+          "uncertainty": null,
+          "display_value": 44,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 4.5,
+          "uncertainty": null,
+          "method": null,
+          "measured_at": null,
+          "depth_m": null,
+          "notes": null
+        }
+      ],
+      "molecules_data": [
+        {
+          "nom": "PFBA",
+          "cas": "375-22-4",
+          "famille": "PFAS",
+          "valeur": 0.55,
+          "unite": "ng/L",
+          "valeur_ug_l": 0.00055,
+          "incertitude": null,
+          "lod": null,
+          "loq": null,
+          "detecte": 1,
+          "mz_mesure": 213,
+          "methode": "Orbitrap",
+          "laboratoire": null,
+          "date_analyse": "2026-04-13",
+          "matrice": "eau",
+          "conforme": null,
+          "seuil_ref": null,
+          "seuil_ref_unit": null,
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "methods": {
+    "db_method_1": {
+      "name": "Purification Sb",
+      "type": "purification",
+      "element": null,
+      "target_matrices": [
+        "All"
+      ],
+      "duration": "2h",
+      "duration_hours": 2,
+      "yield_min_pct": 85,
+      "yield_max_pct": 100,
+      "equipment": {
+        "column": "shrink-teflon-2ml",
+        "resin": "other",
+        "resin_volume_ml": null,
+        "reagents": "",
+        "temperature": ""
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Conditionnement",
+          "detail": "HCl 0.5M",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Lavage",
+          "detail": "H2O",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    },
+    "digestion-hno3-hf": {
+      "name": "Digestion acide HNO3/HF",
+      "type": "digestion",
+      "element": null,
+      "target_matrices": [
+        "Silicates, roches"
+      ],
+      "duration": "4 jours",
+      "duration_hours": 96,
+      "yield_min_pct": null,
+      "yield_max_pct": null,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Pesée",
+          "detail": "50-100 mg",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "HNO3 conc.",
+          "detail": "2 mL, 24h",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "HF conc.",
+          "detail": "1 mL, 48h",
+          "final": false
+        },
+        {
+          "num": 4,
+          "title": "Évaporation",
+          "detail": "120°C",
+          "final": false
+        },
+        {
+          "num": 5,
+          "title": "Reprise HNO3",
+          "detail": "2% v/v",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    },
+    "digestion-mw": {
+      "name": "Digestion micro-ondes",
+      "type": "digestion",
+      "element": null,
+      "target_matrices": [
+        "Sédiments, sols, métaux"
+      ],
+      "duration": "1h",
+      "duration_hours": 1,
+      "yield_min_pct": null,
+      "yield_max_pct": null,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Pesée",
+          "detail": "200 mg",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "HNO3/HCl",
+          "detail": "Aqua regia",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "Micro-ondes",
+          "detail": "180°C, 20min",
+          "final": false
+        },
+        {
+          "num": 4,
+          "title": "Dilution",
+          "detail": "HNO3 2%",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    },
+    "chromato-sr": {
+      "name": "Chromatographie Sr-Spec",
+      "type": "purification",
+      "element": null,
+      "target_matrices": [],
+      "duration": "2h",
+      "duration_hours": 2,
+      "yield_min_pct": 85,
+      "yield_max_pct": 95,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Conditionnement",
+          "detail": "HNO3 3M",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Chargement",
+          "detail": "Échantillon",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "Lavage",
+          "detail": "HNO3 3M, 4 mL",
+          "final": false
+        },
+        {
+          "num": 4,
+          "title": "Élution Sr",
+          "detail": "H2O, 3 mL",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    },
+    "chromato-pb": {
+      "name": "Chromatographie AG1-X8 (Pb)",
+      "type": "purification",
+      "element": null,
+      "target_matrices": [],
+      "duration": "3h",
+      "duration_hours": 3,
+      "yield_min_pct": 80,
+      "yield_max_pct": 90,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Conditionnement",
+          "detail": "HBr 1M",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Chargement",
+          "detail": "HBr 1M",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "Lavage",
+          "detail": "HBr 1M, 2x1mL",
+          "final": false
+        },
+        {
+          "num": 4,
+          "title": "Élution Pb",
+          "detail": "HCl 6M",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    },
+    "nd-tru-ln": {
+      "name": "Séparation Nd (TRU + Ln-Spec)",
+      "type": "separation",
+      "element": null,
+      "target_matrices": [],
+      "duration": "6h",
+      "duration_hours": 6,
+      "yield_min_pct": 70,
+      "yield_max_pct": 85,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "TRU-Spec",
+          "detail": "HNO3 2M - Élution REE",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Ln-Spec",
+          "detail": "HCl 0.25M",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "Collecte Nd",
+          "detail": "Fraction 8-12 mL",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    },
+    "tims-analysis": {
+      "name": "Analyse TIMS",
+      "type": "analysis",
+      "element": null,
+      "target_matrices": [],
+      "duration": "30min",
+      "duration_hours": 0.5,
+      "yield_min_pct": null,
+      "yield_max_pct": null,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Dépôt",
+          "detail": "Filament Re/Ta",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Chauffage",
+          "detail": "Rampe température",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "Acquisition",
+          "detail": "200 cycles",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    },
+    "mc-icpms": {
+      "name": "Analyse MC-ICP-MS",
+      "type": "analysis",
+      "element": null,
+      "target_matrices": [],
+      "duration": "15min",
+      "duration_hours": 0.25,
+      "yield_min_pct": null,
+      "yield_max_pct": null,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": null,
+        "temperature": null
+      },
+      "steps": [
+        {
+          "num": 1,
+          "title": "Tuning",
+          "detail": "Optimisation signal",
+          "final": false
+        },
+        {
+          "num": 2,
+          "title": "Standard",
+          "detail": "Bracketing",
+          "final": false
+        },
+        {
+          "num": 3,
+          "title": "Échantillon",
+          "detail": "40 cycles",
+          "final": true
+        }
+      ],
+      "reference": {
+        "doi": null,
+        "citation": null
+      },
+      "notes": null
+    }
+  },
+  "pipelines": {
+    "sr": {
+      "name": "Strontium (Sr) - Carbonates",
+      "element": "Sr",
+      "description": null,
+      "stages": [
+        {
+          "order": 1,
+          "method_key": "digestion-mw",
+          "label": "Digestion"
+        },
+        {
+          "order": 2,
+          "method_key": "chromato-sr",
+          "label": "Purification Sr"
+        },
+        {
+          "order": 3,
+          "method_key": "tims-analysis",
+          "label": "Analyse TIMS"
+        }
+      ]
+    },
+    "pb": {
+      "name": "Plomb (Pb) - Métaux",
+      "element": "Pb",
+      "description": null,
+      "stages": [
+        {
+          "order": 1,
+          "method_key": "digestion-mw",
+          "label": "Digestion"
+        },
+        {
+          "order": 2,
+          "method_key": "chromato-pb",
+          "label": "Purification Pb"
+        },
+        {
+          "order": 3,
+          "method_key": "mc-icpms",
+          "label": "Analyse MC-ICP-MS"
+        }
+      ]
+    },
+    "nd": {
+      "name": "Néodyme (Nd) - Silicates",
+      "element": "Nd",
+      "description": null,
+      "stages": [
+        {
+          "order": 1,
+          "method_key": "digestion-hno3-hf",
+          "label": "Digestion HF"
+        },
+        {
+          "order": 2,
+          "method_key": "nd-tru-ln",
+          "label": "Séparation Nd"
+        },
+        {
+          "order": 3,
+          "method_key": "tims-analysis",
+          "label": "Analyse TIMS"
+        }
+      ]
+    }
+  },
+  "purification": {
+    "101_SB": {
+      "value_pct": 99,
+      "date": "2026-04-09 09:27:16",
+      "operator": null,
+      "method_key": null,
+      "notes": null
+    }
+  },
+  "assignments": [],
+  "signature": {
+    "level": 1,
+    "algorithm": "SHA-256",
+    "scope": [
+      "created_by",
+      "isof_version",
+      "created_at",
+      "project",
+      "samples",
+      "methods",
+      "purification"
+    ],
+    "hash": "ce372fdffa5d58f53d86be3a28707ddfee139dda8c994da6cefbc4a96bf0a55f",
+    "signed_at": "2026-04-20T16:54:17.167Z",
+    "signed_by": "IsoFind",
+    "contact": null
+  }
+}
