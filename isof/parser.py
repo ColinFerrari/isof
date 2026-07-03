@@ -49,6 +49,7 @@ from .models import (
     Encryption,
     GeochemRecord,
     IsotopeRecord,
+    Location,
     Method,
     MethodEquipment,
     MethodReference,
@@ -72,7 +73,7 @@ from .models import (
 # but the parser tolerates their presence (observed in practice: some older
 # IsoFind exports declare 1.1 yet emit v1.2 families). v1.2 formalizes these
 # blocks and introduces encryption.
-SUPPORTED_VERSIONS = ("1.0", "1.1", "1.2")
+SUPPORTED_VERSIONS = ("1.0", "1.1", "1.2", "1.3")
 
 
 def load_file(path: Union[str, Path]) -> tuple[dict, "ISOfDocument"]:
@@ -154,12 +155,15 @@ class ISOfDocument:
         created_at: Optional[str],
         created_by: Optional[CreatedBy],
         project: Optional[Project],
-        samples: tuple[Sample, ...],
-        methods: dict[str, Method],
-        pipelines: dict[str, Pipeline],
-        purification: dict[str, PurificationYield],
-        assignments: tuple[Assignment, ...],
-        signature: Optional[Signature],
+        doi: Optional[str] = None,
+        date: Optional[str] = None,
+        location: Optional[Location] = None,
+        samples: tuple[Sample, ...] = (),
+        methods: dict[str, Method] = None,
+        pipelines: dict[str, Pipeline] = None,
+        purification: dict[str, PurificationYield] = None,
+        assignments: tuple[Assignment, ...] = (),
+        signature: Optional[Signature] = None,
         encryption: Optional[Encryption] = None,
         _raw: Optional[dict] = None,
     ) -> None:
@@ -167,10 +171,13 @@ class ISOfDocument:
         self.created_at = created_at
         self.created_by = created_by
         self.project = project
+        self.doi = doi
+        self.date = date
+        self.location = location
         self.samples = samples
-        self.methods = methods
-        self.pipelines = pipelines
-        self.purification = purification
+        self.methods = methods if methods is not None else {}
+        self.pipelines = pipelines if pipelines is not None else {}
+        self.purification = purification if purification is not None else {}
         self.assignments = assignments
         self.signature = signature
         self.encryption = encryption
@@ -180,7 +187,7 @@ class ISOfDocument:
         n = len(self.samples)
         org = self.created_by.organisation if self.created_by else "?"
         tag = " [chiffré]" if self.is_encrypted else ""
-        return f"<ISOfDocument v{self.version}{tag} — {n} échantillon(s) — {org}>"
+        return f"<ISOfDocument v{self.version}{tag}, {n} échantillon(s), {org}>"
 
     # ------------------------------------------------------------------
     # État du document | Document state
@@ -602,6 +609,9 @@ def _parse_document(raw: dict) -> ISOfDocument:
         created_at   = raw.get("created_at"),
         created_by   = _parse_created_by(raw.get("created_by")),
         project      = _parse_project(raw.get("project")),
+        doi          = raw.get("doi"),
+        date         = raw.get("date"),
+        location     = _parse_location(raw.get("location")),
         samples      = samples_tuple,
         methods      = methods_dict,
         pipelines    = pipelines_dict,
@@ -624,15 +634,44 @@ def _parse_created_by(data: Optional[dict]) -> Optional[CreatedBy]:
     )
 
 
-def _parse_project(data: Optional[dict]) -> Optional[Project]:
+def _parse_project(data) -> Optional[Project]:
     if not data:
         return None
+    # Certains fichiers stockent 'project' comme une simple chaine (le titre de
+    # l'etude) plutot que comme un objet structure. On accepte les deux afin de
+    # ne pas rejeter un fichier valide pour cette seule raison.
+    # Some files store 'project' as a plain string (the study title) rather than
+    # a structured object. Both forms are accepted so a valid file is not
+    # rejected for this reason alone.
+    if isinstance(data, str):
+        return Project(
+            name           = data,
+            reference      = None,
+            client         = None,
+            classification = None,
+            notes          = None,
+        )
     return Project(
         name           = data.get("name"),
         reference      = data.get("reference"),
         client         = data.get("client"),
         classification = data.get("classification"),
         notes          = data.get("notes"),
+    )
+
+
+def _parse_location(data) -> Optional[Location]:
+    if not data:
+        return None
+    # On accepte aussi une chaine seule, interpretee comme le nom du lieu, pour
+    # la meme raison de tolerance que 'project'.
+    # A plain string is also accepted, read as the location name, for the same
+    # tolerance reason as 'project'.
+    if isinstance(data, str):
+        return Location(name=data, country=None)
+    return Location(
+        name    = data.get("name"),
+        country = data.get("country"),
     )
 
 

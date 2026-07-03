@@ -1,0 +1,5030 @@
+{
+  "isof_version": "1.2",
+  "created_at": "2026-06-24T14:46:58Z",
+  "created_by": {
+    "software": "IsoFind",
+    "software_version": "1.0.0",
+    "operator": "Ferrari et al. (2025)",
+    "organisation": "HydroSciences Montpellier"
+  },
+  "project": "Sb isotopes in a mining- and smelter-impacted river system (Oruro, Bolivia)",
+  "doi": "10.1007/s11270-025-08445-6",
+  "date": "2025",
+  "location": {
+    "name": "Oruro",
+    "country": "Bolivia"
+  },
+  "samples": [
+    {
+      "id": "oruro-bolivia-sb-2025-water-sj1-2019",
+      "name": "SJ1 - water (< 0.22 µm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "Acid mine drainage (water, < 0.22 µm)",
+      "matrix": "Acid mine drainage (water, < 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "San José mine gallery exit (acid mine drainage). Dissolved phase (< 0.22 µm), wet season (April 2019). [Sb] = 7824 µg/L. Field pH ≈ 1-2 (2019). Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.961321,
+      "longitude": -67.124131,
+      "collection_date": "2019-04-17",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.46,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.46,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 7824,
+          "uncertainty": null,
+          "display_value": 7824,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 3114,
+          "uncertainty": null,
+          "display_value": 3114,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 3651,
+          "uncertainty": null,
+          "display_value": 3651,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-sj1-2021",
+      "name": "SJ1 - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Acid mine drainage (water, < 0.22 µm)",
+      "matrix": "Acid mine drainage (water, < 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "San José mine gallery exit (acid mine drainage). Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 8057 µg/L. pH = 1.56. Speciation: Sb(V) 80.6%, Sb(III) 19.4%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.961321,
+      "longitude": -67.124131,
+      "collection_date": "2021-10-29",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.42,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.42,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 8057,
+          "uncertainty": null,
+          "display_value": 8057,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 3716,
+          "uncertainty": null,
+          "display_value": 3716,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 4258,
+          "uncertainty": null,
+          "display_value": 4258,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 1.56,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 616.8,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 93300,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 4.54,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 22.8,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 12.0,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-cr1-2019",
+      "name": "CR1 - water (< 0.22 µm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, upstream station (CR1). Dissolved phase (< 0.22 µm), wet season (April 2019). [Sb] = 2242 µg/L. Field pH ≈ 2 (2019). Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.941472,
+      "longitude": -67.100899,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.42,
+          "ratio_2se": 0.07,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.42,
+          "delta_2sd": 0.07,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 2242,
+          "uncertainty": null,
+          "display_value": 2242,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 1768,
+          "uncertainty": null,
+          "display_value": 1768,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 2673,
+          "uncertainty": null,
+          "display_value": 2673,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-cr1-2021",
+      "name": "CR1 - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, upstream station (CR1). Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 4070 µg/L. pH = 1.85. Speciation: Sb(V) 90.5%, Sb(III) 9.5%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.941472,
+      "longitude": -67.100899,
+      "collection_date": "2021-10-29",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.43,
+          "ratio_2se": 0.01,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.43,
+          "delta_2sd": 0.01,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 4070,
+          "uncertainty": null,
+          "display_value": 4070,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 2930,
+          "uncertainty": null,
+          "display_value": 2930,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 3965,
+          "uncertainty": null,
+          "display_value": 3965,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 1.85,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 602.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 65700,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 5.21,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 15.3,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 44.5,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-cr2-2019",
+      "name": "CR2 - water (< 0.22 µm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, midstream station (CR2). Dissolved phase (< 0.22 µm), wet season (April 2019). [Sb] = 24.8 µg/L. Field pH ≈ 4-5 (2019). Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.976525,
+      "longitude": -67.09201,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.55,
+          "ratio_2se": 0.04,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.55,
+          "delta_2sd": 0.04,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 24.8,
+          "uncertainty": null,
+          "display_value": 24.8,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 291,
+          "uncertainty": null,
+          "display_value": 291,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 962,
+          "uncertainty": null,
+          "display_value": 962,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-cr2-2021",
+      "name": "CR2 - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, midstream station (CR2). Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 97.4 µg/L. pH = 4.48. Speciation: Sb(V) > 99%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.976525,
+      "longitude": -67.09201,
+      "collection_date": "2021-10-28",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.54,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.54,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 97.4,
+          "uncertainty": null,
+          "display_value": 97.4,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 249,
+          "uncertainty": null,
+          "display_value": 249,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 499,
+          "uncertainty": null,
+          "display_value": 499,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 4.48,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 412.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 13450,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 4.64,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 11.8,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 65.9,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-cr3-2019",
+      "name": "CR3 - water (< 0.22 µm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, downstream station (CR3). Dissolved phase (< 0.22 µm), wet season (April 2019). [Sb] = 10.2 µg/L. Field pH ≈ 5 (2019). Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -18.015115,
+      "longitude": -67.095192,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.6,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.6,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 10.2,
+          "uncertainty": null,
+          "display_value": 10.2,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 164,
+          "uncertainty": null,
+          "display_value": 164,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 691,
+          "uncertainty": null,
+          "display_value": 691,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-cr3-2021",
+      "name": "CR3 - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, downstream station (CR3). Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 19.9 µg/L. pH = 5.23. Speciation: Sb(V) > 95%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -18.015115,
+      "longitude": -67.095192,
+      "collection_date": "2021-10-25",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.7,
+          "ratio_2se": 0.03,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.7,
+          "delta_2sd": 0.03,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 19.9,
+          "uncertainty": null,
+          "display_value": 19.9,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 233,
+          "uncertainty": null,
+          "display_value": 233,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 549,
+          "uncertainty": null,
+          "display_value": 549,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 5.23,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 350.4,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 14710,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 2.46,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 9.4,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 55.2,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-luu-2019",
+      "name": "LUU - water (< 0.22 µm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "Lake water (< 0.22 µm)",
+      "matrix": "Lake water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Lake Uru-Uru. Dissolved phase (< 0.22 µm), wet season (April 2019). [Sb] = 21.9 µg/L. Field pH ≈ 7 (2019). Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -18.04838,
+      "longitude": -67.081639,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.28,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.28,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 21.9,
+          "uncertainty": null,
+          "display_value": 21.9,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.18,
+          "uncertainty": null,
+          "display_value": 0.18,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 522,
+          "uncertainty": null,
+          "display_value": 522,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-luu-2021",
+      "name": "LUU - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Lake water (< 0.22 µm)",
+      "matrix": "Lake water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Lake Uru-Uru. Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 7.2 µg/L. pH = 6.51. Speciation: Sb(V) > 87%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -18.04838,
+      "longitude": -67.081639,
+      "collection_date": "2021-10-24",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.55,
+          "ratio_2se": 0.01,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.55,
+          "delta_2sd": 0.01,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 7.2,
+          "uncertainty": null,
+          "display_value": 7.2,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 122,
+          "uncertainty": null,
+          "display_value": 122,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 679,
+          "uncertainty": null,
+          "display_value": 679,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 6.51,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 175.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 18300,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 2.75,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 25.5,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 45.2,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-v1-2019",
+      "name": "V1 - water (< 0.22 µm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Vinto River, near smelter (V1). Dissolved phase (< 0.22 µm), wet season (April 2019). [Sb] = 31.4 µg/L. Field pH ≈ 6-7 (2019). Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.975446,
+      "longitude": -67.03611,
+      "collection_date": "2019-04-19",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.29,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.29,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 31.4,
+          "uncertainty": null,
+          "display_value": 31.4,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.03,
+          "uncertainty": null,
+          "display_value": 0.03,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 35,
+          "uncertainty": null,
+          "display_value": 35,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-v2-2019",
+      "name": "V2 - water (< 0.22 µm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Vinto River, downstream (V2). Dissolved phase (< 0.22 µm), wet season (April 2019). [Sb] = 33.3 µg/L. Field pH ≈ 7 (2019). Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.996402,
+      "longitude": -67.062103,
+      "collection_date": "2019-04-19",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.36,
+          "ratio_2se": 0.03,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.36,
+          "delta_2sd": 0.03,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 33.3,
+          "uncertainty": null,
+          "display_value": 33.3,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.06,
+          "uncertainty": null,
+          "display_value": 0.06,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 40.8,
+          "uncertainty": null,
+          "display_value": 40.8,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-urb-2021",
+      "name": "URB - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Urban canal water (< 0.22 µm)",
+      "matrix": "Urban canal water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Urban canal (URB). Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 18.5 µg/L. pH = 7.9. Speciation: Sb(V) 84.2%, Sb(III) 15.8%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -18.007345,
+      "longitude": -67.115937,
+      "collection_date": "2021-10-27",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.61,
+          "ratio_2se": 0.06,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.61,
+          "delta_2sd": 0.06,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 18.5,
+          "uncertainty": null,
+          "display_value": 18.5,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 4.47,
+          "uncertainty": null,
+          "display_value": 4.47,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 251,
+          "uncertainty": null,
+          "display_value": 251,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 7.9,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 2.3,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 5410,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 0.14,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 14.5,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 21.9,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-par-2021",
+      "name": "PAR - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Paria River, reference site (PAR). Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 4.12 µg/L. pH = 8.3. Speciation: Sb(V) > 94%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -17.822572,
+      "longitude": -67.014645,
+      "collection_date": "2021-10-26",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.36,
+          "ratio_2se": 0.04,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.36,
+          "delta_2sd": 0.04,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 4.12,
+          "uncertainty": null,
+          "display_value": 4.12,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.5,
+          "uncertainty": null,
+          "display_value": 0.5,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 48.1,
+          "uncertainty": null,
+          "display_value": 48.1,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 8.3,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 336.7,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 1125,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 7.07,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 11.5,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 6.6,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-water-cc-2021",
+      "name": "CC - water (< 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River water (< 0.22 µm)",
+      "matrix": "River water (< 0.22 µm)",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Cala-Cala River, reference site (CC). Dissolved phase (< 0.22 µm), dry season (October 2021). [Sb] = 2.01 µg/L. pH = 7.29. Speciation: Sb(V) > 95%. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": -18.020885,
+      "longitude": -66.91037,
+      "collection_date": "2021-10-30",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.33,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.33,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 2.01,
+          "uncertainty": null,
+          "display_value": 2.01,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.005,
+          "uncertainty": null,
+          "display_value": 0.005,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 34.1,
+          "uncertainty": null,
+          "display_value": 34.1,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 7.29,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 336.3,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 422,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 1.71,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 15.2,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": null
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 3.5,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-spm-sj1-2021",
+      "name": "SJ1 - SPM (> 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Suspended particulate matter",
+      "matrix": "Suspended particulate matter",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "San José mine gallery exit (acid mine drainage). Suspended particulate matter (> 0.22 µm), dry season (October 2021). [Sb] = 2614 mg/kg. Preparation: HNO₃-HF digestion of filters, TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.961321,
+      "longitude": -67.124131,
+      "collection_date": "2021-10-29",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.26,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.26,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 2614,
+          "uncertainty": null,
+          "display_value": 2614,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 51139,
+          "uncertainty": null,
+          "display_value": 51139,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 1.56,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 616.8,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 93300,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 4.54,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 22.8,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 12.0,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-spm-cr1-2021",
+      "name": "CR1 - SPM (> 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Suspended particulate matter",
+      "matrix": "Suspended particulate matter",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, upstream station (CR1). Suspended particulate matter (> 0.22 µm), dry season (October 2021). [Sb] = 3837 mg/kg. Fraction likely overestimated (bed-sediment resuspension during sampling). Preparation: HNO₃-HF digestion of filters, TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.941472,
+      "longitude": -67.100899,
+      "collection_date": "2021-10-29",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.32,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.32,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 3837,
+          "uncertainty": null,
+          "display_value": 3837,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 74432,
+          "uncertainty": null,
+          "display_value": 74432,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 1.85,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 602.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 65700,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 5.21,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 15.3,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 44.5,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-spm-cr2-2021",
+      "name": "CR2 - SPM (> 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Suspended particulate matter",
+      "matrix": "Suspended particulate matter",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, midstream station (CR2). Suspended particulate matter (> 0.22 µm), dry season (October 2021). [Sb] = 262 mg/kg. Preparation: HNO₃-HF digestion of filters, TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.976525,
+      "longitude": -67.09201,
+      "collection_date": "2021-10-28",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.31,
+          "ratio_2se": 0.01,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.31,
+          "delta_2sd": 0.01,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 262,
+          "uncertainty": null,
+          "display_value": 262,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 60562,
+          "uncertainty": null,
+          "display_value": 60562,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 4.48,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 412.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 13450,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 4.64,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 11.8,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 65.9,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-spm-cr3-2021",
+      "name": "CR3 - SPM (> 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Suspended particulate matter",
+      "matrix": "Suspended particulate matter",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, downstream station (CR3). Suspended particulate matter (> 0.22 µm), dry season (October 2021). [Sb] = 94.3 mg/kg. Preparation: HNO₃-HF digestion of filters, TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.015115,
+      "longitude": -67.095192,
+      "collection_date": "2021-10-25",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.49,
+          "ratio_2se": 0.05,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.49,
+          "delta_2sd": 0.05,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 94.3,
+          "uncertainty": null,
+          "display_value": 94.3,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 217148,
+          "uncertainty": null,
+          "display_value": 217148,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 5.23,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 350.4,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 14710,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 2.46,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 9.4,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 55.2,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-spm-luu-2021",
+      "name": "LUU - SPM (> 0.22 µm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "Suspended particulate matter",
+      "matrix": "Suspended particulate matter",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Lake Uru-Uru. Suspended particulate matter (> 0.22 µm), dry season (October 2021). [Sb] = 24.1 mg/kg. Preparation: HNO₃-HF digestion of filters, TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.04838,
+      "longitude": -67.081639,
+      "collection_date": "2021-10-24",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.31,
+          "ratio_2se": 0.04,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.31,
+          "delta_2sd": 0.04,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 24.1,
+          "uncertainty": null,
+          "display_value": 24.1,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 88149,
+          "uncertainty": null,
+          "display_value": 88149,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 6.51,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 175.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 18300,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 2.75,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 25.5,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 45.2,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-sj1-2019",
+      "name": "SJ1 - sediment (< 2 mm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "San José mine gallery exit (acid mine drainage). Bed sediment (< 2 mm), wet season (April 2019). [Sb] = 14528 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.961321,
+      "longitude": -67.124131,
+      "collection_date": "2019-04-17",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": -0.09,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": -0.09,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 14528,
+          "uncertainty": null,
+          "display_value": 14528,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 166029,
+          "uncertainty": null,
+          "display_value": 166029,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 201750,
+          "uncertainty": null,
+          "display_value": 201750,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-sj1-2021",
+      "name": "SJ1 - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "San José mine gallery exit (acid mine drainage). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 715 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.961321,
+      "longitude": -67.124131,
+      "collection_date": "2021-10-29",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.22,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.22,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 715,
+          "uncertainty": null,
+          "display_value": 715,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 14083,
+          "uncertainty": null,
+          "display_value": 14083,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 1.56,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 616.8,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 93300,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 4.54,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 22.8,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 12.0,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-cr1-2019",
+      "name": "CR1 - sediment (< 2 mm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, upstream station (CR1). Bed sediment (< 2 mm), wet season (April 2019). [Sb] = 211 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.941472,
+      "longitude": -67.100899,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.08,
+          "ratio_2se": null,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.08,
+          "delta_2sd": null,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=1, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 211,
+          "uncertainty": null,
+          "display_value": 211,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 44242,
+          "uncertainty": null,
+          "display_value": 44242,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 51601,
+          "uncertainty": null,
+          "display_value": 51601,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-cr1-2021",
+      "name": "CR1 - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, upstream station (CR1). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 1431 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.941472,
+      "longitude": -67.100899,
+      "collection_date": "2021-10-29",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.36,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.36,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 1431,
+          "uncertainty": null,
+          "display_value": 1431,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 80463,
+          "uncertainty": null,
+          "display_value": 80463,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 1.85,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 602.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 65700,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 5.21,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 15.3,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 44.5,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-29",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-cr2-2019",
+      "name": "CR2 - sediment (< 2 mm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, midstream station (CR2). Bed sediment (< 2 mm), wet season (April 2019). [Sb] = 203 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.976525,
+      "longitude": -67.09201,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.23,
+          "ratio_2se": 0.05,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.23,
+          "delta_2sd": 0.05,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 203,
+          "uncertainty": null,
+          "display_value": 203,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 64852,
+          "uncertainty": null,
+          "display_value": 64852,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 10547,
+          "uncertainty": null,
+          "display_value": 10547,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-cr2-2021",
+      "name": "CR2 - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, midstream station (CR2). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 273 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.976525,
+      "longitude": -67.09201,
+      "collection_date": "2021-10-28",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.23,
+          "ratio_2se": 0.03,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.23,
+          "delta_2sd": 0.03,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 273,
+          "uncertainty": null,
+          "display_value": 273,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 38535,
+          "uncertainty": null,
+          "display_value": 38535,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 4.48,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 412.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 13450,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 4.64,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 11.8,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 65.9,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-28",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-cr3-2019",
+      "name": "CR3 - sediment (< 2 mm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, downstream station (CR3). Bed sediment (< 2 mm), wet season (April 2019). [Sb] = 57.2 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.015115,
+      "longitude": -67.095192,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.23,
+          "ratio_2se": 0.04,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.23,
+          "delta_2sd": 0.04,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 57.2,
+          "uncertainty": null,
+          "display_value": 57.2,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 45924,
+          "uncertainty": null,
+          "display_value": 45924,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 35418,
+          "uncertainty": null,
+          "display_value": 35418,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-cr3-2021",
+      "name": "CR3 - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Canal Rosso, downstream station (CR3). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 259 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.015115,
+      "longitude": -67.095192,
+      "collection_date": "2021-10-25",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.25,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.25,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 259,
+          "uncertainty": null,
+          "display_value": 259,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 94766,
+          "uncertainty": null,
+          "display_value": 94766,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 25314,
+          "uncertainty": null,
+          "display_value": 25314,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 5.23,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 350.4,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 14710,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 2.46,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 9.4,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 55.2,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-25",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-luu-2019",
+      "name": "LUU - sediment (< 2 mm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Lake Uru-Uru. Bed sediment (< 2 mm), wet season (April 2019). [Sb] = 82.1 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.04838,
+      "longitude": -67.081639,
+      "collection_date": "2019-04-18",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.22,
+          "ratio_2se": 0.05,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.22,
+          "delta_2sd": 0.05,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 82.1,
+          "uncertainty": null,
+          "display_value": 82.1,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 71221,
+          "uncertainty": null,
+          "display_value": 71221,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 13317,
+          "uncertainty": null,
+          "display_value": 13317,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-luu-2021",
+      "name": "LUU - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Lake Uru-Uru. Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 47.3 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.04838,
+      "longitude": -67.081639,
+      "collection_date": "2021-10-24",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.2,
+          "ratio_2se": 0.04,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.2,
+          "delta_2sd": 0.04,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 47.3,
+          "uncertainty": null,
+          "display_value": 47.3,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 82061,
+          "uncertainty": null,
+          "display_value": 82061,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 6.51,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 175.5,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 18300,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 2.75,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 25.5,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 45.2,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-24",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-v1-2019",
+      "name": "V1 - sediment (< 2 mm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Vinto River, near smelter (V1). Bed sediment (< 2 mm), wet season (April 2019). [Sb] = 154 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.975446,
+      "longitude": -67.03611,
+      "collection_date": "2019-04-19",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.03,
+          "ratio_2se": 0.08,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.03,
+          "delta_2sd": 0.08,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 154,
+          "uncertainty": null,
+          "display_value": 154,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 36993,
+          "uncertainty": null,
+          "display_value": 36993,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-v1-2021",
+      "name": "V1 - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Vinto River, near smelter (V1). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 34.9 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.975446,
+      "longitude": -67.03611,
+      "collection_date": "2021-10-30",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.18,
+          "ratio_2se": 0.05,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.18,
+          "delta_2sd": 0.05,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 34.9,
+          "uncertainty": null,
+          "display_value": 34.9,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 28140,
+          "uncertainty": null,
+          "display_value": 28140,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-v2-2019",
+      "name": "V2 - sediment (< 2 mm) - wet season (April 2019)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Vinto River, downstream (V2). Bed sediment (< 2 mm), wet season (April 2019). [Sb] = 419 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.996402,
+      "longitude": -67.062103,
+      "collection_date": "2019-04-19",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.23,
+          "ratio_2se": 0.03,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.23,
+          "delta_2sd": 0.03,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2019",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 419,
+          "uncertainty": null,
+          "display_value": 419,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 31923,
+          "uncertainty": null,
+          "display_value": 31923,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-v2-2021",
+      "name": "V2 - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Vinto River, downstream (V2). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 78.2 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.996402,
+      "longitude": -67.062103,
+      "collection_date": "2021-10-30",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.13,
+          "ratio_2se": 0.06,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.13,
+          "delta_2sd": 0.06,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 78.2,
+          "uncertainty": null,
+          "display_value": 78.2,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 36032,
+          "uncertainty": null,
+          "display_value": 36032,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-urb-2021",
+      "name": "URB - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Urban canal (URB). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 54.7 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.007345,
+      "longitude": -67.115937,
+      "collection_date": "2021-10-27",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.11,
+          "ratio_2se": 0.04,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.11,
+          "delta_2sd": 0.04,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 54.7,
+          "uncertainty": null,
+          "display_value": 54.7,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 52446,
+          "uncertainty": null,
+          "display_value": 52446,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 17412,
+          "uncertainty": null,
+          "display_value": 17412,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 7.9,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 2.3,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 5410,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 0.14,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 14.5,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 21.9,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-27",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-par-2021",
+      "name": "PAR - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Paria River, reference site (PAR). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 20.4 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -17.822572,
+      "longitude": -67.014645,
+      "collection_date": "2021-10-26",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.13,
+          "ratio_2se": 0.05,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.13,
+          "delta_2sd": 0.05,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 20.4,
+          "uncertainty": null,
+          "display_value": 20.4,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 24567,
+          "uncertainty": null,
+          "display_value": 24567,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 8.3,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 336.7,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 1125,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 7.07,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 11.5,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 6.6,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-26",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-sediment-cc-2021",
+      "name": "CC - sediment (< 2 mm) - dry season (October 2021)",
+      "classification": "Environmental sample",
+      "material_type": "River sediment",
+      "matrix": "River sediment",
+      "sector": "Mining and metallurgical environment",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Cala-Cala River, reference site (CC). Bed sediment (< 2 mm), dry season (October 2021). [Sb] = 16.3 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": -18.020885,
+      "longitude": -66.91037,
+      "collection_date": "2021-10-30",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.24,
+          "ratio_2se": 0.07,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.24,
+          "delta_2sd": 0.07,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 16.3,
+          "uncertainty": null,
+          "display_value": 16.3,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 25394,
+          "uncertainty": null,
+          "display_value": 25394,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": [
+        {
+          "parameter": "pH",
+          "value": 7.29,
+          "uncertainty": null,
+          "method": "pH electrode (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "Eh_mV",
+          "value": 336.3,
+          "uncertainty": null,
+          "method": "electrode (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "conductivity_us_cm",
+          "value": 422,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "do_mg_l",
+          "value": 1.71,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "temperature_c",
+          "value": 15.2,
+          "uncertainty": null,
+          "method": "probe (HQ40D)",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        },
+        {
+          "parameter": "toc_mg_l",
+          "value": 3.5,
+          "uncertainty": null,
+          "method": "TOC-VCSH",
+          "measured_at": "2021-10-30",
+          "depth_m": null,
+          "notes": "Water-column parameters at the station (October 2021 campaign)."
+        }
+      ]
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-drinking-water-dw0",
+      "name": "DW0 - drinking water - Oruro (centre)",
+      "classification": "Environmental sample",
+      "material_type": "Drinking water",
+      "matrix": "Drinking water",
+      "sector": "Drinking water",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Tap water from the network, Oruro (centre). Sampled October 2021. [Sb] = 0.42 µg/L. δ123Sb not determined (concentration too low).",
+      "latitude": null,
+      "longitude": null,
+      "collection_date": "2021-10",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 0.42,
+          "uncertainty": null,
+          "display_value": 0.42,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.52,
+          "uncertainty": null,
+          "display_value": 0.52,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 0.05,
+          "uncertainty": null,
+          "display_value": 0.05,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-drinking-water-dw1",
+      "name": "DW1 - drinking water - Vinto (east)",
+      "classification": "Environmental sample",
+      "material_type": "Drinking water",
+      "matrix": "Drinking water",
+      "sector": "Drinking water",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Tap water from the network, Vinto (east). Sampled October 2021. [Sb] = 7.99 µg/L. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": null,
+      "longitude": null,
+      "collection_date": "2021-10",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.64,
+          "ratio_2se": 0.03,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.64,
+          "delta_2sd": 0.03,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 7.99,
+          "uncertainty": null,
+          "display_value": 7.99,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.49,
+          "uncertainty": null,
+          "display_value": 0.49,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 0.1,
+          "uncertainty": null,
+          "display_value": 0.1,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-drinking-water-dw2",
+      "name": "DW2 - drinking water - Vinto (centre)",
+      "classification": "Environmental sample",
+      "material_type": "Drinking water",
+      "matrix": "Drinking water",
+      "sector": "Drinking water",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Tap water from the network, Vinto (centre). Sampled October 2021. [Sb] = 8.35 µg/L. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": null,
+      "longitude": null,
+      "collection_date": "2021-10",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.67,
+          "ratio_2se": 0.02,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.67,
+          "delta_2sd": 0.02,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 8.35,
+          "uncertainty": null,
+          "display_value": 8.35,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.64,
+          "uncertainty": null,
+          "display_value": 0.64,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 0.11,
+          "uncertainty": null,
+          "display_value": 0.11,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-drinking-water-dw3",
+      "name": "DW3 - drinking water - Vinto (south-west)",
+      "classification": "Environmental sample",
+      "material_type": "Drinking water",
+      "matrix": "Drinking water",
+      "sector": "Drinking water",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Tap water from the network, Vinto (south-west). Sampled October 2021. [Sb] = 7.04 µg/L. Preparation: TSP purification then HG-MC-ICP-MS measurement.",
+      "latitude": null,
+      "longitude": null,
+      "collection_date": "2021-10",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.93,
+          "ratio_2se": 0.01,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.93,
+          "delta_2sd": 0.01,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 7.04,
+          "uncertainty": null,
+          "display_value": 7.04,
+          "display_unit": "µg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 0.5,
+          "uncertainty": null,
+          "display_value": 0.5,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 0.13,
+          "uncertainty": null,
+          "display_value": 0.13,
+          "display_unit": "mg/L",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-mine-waste-san-jose-1",
+      "name": "San José mine waste #1",
+      "classification": "Environmental sample",
+      "material_type": "Mine waste",
+      "matrix": "Mine waste",
+      "sector": "Mine waste",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Mine waste, San José mine (Table S3). [Sb] = 2604 mg/kg; Fe = 113421 mg/kg; S = 108514 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": null,
+      "longitude": null,
+      "collection_date": "2021-10",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.14,
+          "ratio_2se": 0.07,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.14,
+          "delta_2sd": 0.07,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 2604,
+          "uncertainty": null,
+          "display_value": 2604,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 113421,
+          "uncertainty": null,
+          "display_value": 113421,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 108514,
+          "uncertainty": null,
+          "display_value": 108514,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-mine-waste-san-jose-2",
+      "name": "San José mine waste #2",
+      "classification": "Environmental sample",
+      "material_type": "Mine waste",
+      "matrix": "Mine waste",
+      "sector": "Mine waste",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Mine waste, San José mine (Table S3). [Sb] = 128 mg/kg; Fe = 41876 mg/kg; S = 17525 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": null,
+      "longitude": null,
+      "collection_date": "2021-10",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.17,
+          "ratio_2se": 0.08,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.17,
+          "delta_2sd": 0.08,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 128,
+          "uncertainty": null,
+          "display_value": 128,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "Fe",
+          "value_normalized": 41876,
+          "uncertainty": null,
+          "display_value": 41876,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 17525,
+          "uncertainty": null,
+          "display_value": 17525,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    },
+    {
+      "id": "oruro-bolivia-sb-2025-slag-vinto",
+      "name": "Vinto smelter slag",
+      "classification": "Environmental sample",
+      "material_type": "Smelter slag",
+      "matrix": "Smelter slag",
+      "sector": "Metallurgical waste",
+      "project": "Sb isotopes, Oruro (Bolivia), Ferrari et al. 2025",
+      "description": "Composite sample of slag from the Vinto tin smelter (Table S3). [Sb] = 41 mg/kg; S = 208599 mg/kg; Fe < 6189 mg/kg. Preparation: microwave digestion (HNO₃-HF-HCl), TSP purification, HG-MC-ICP-MS measurement.",
+      "latitude": null,
+      "longitude": null,
+      "collection_date": "2021-10",
+      "is_crm": 0,
+      "data_origin": "community",
+      "isotope_data": [
+        {
+          "element": "Sb",
+          "system": "123Sb/121Sb",
+          "ratio": 0.29,
+          "ratio_2se": 0.04,
+          "delta_notation": "δ123Sb",
+          "delta_value": 0.29,
+          "delta_2sd": 0.04,
+          "standard": "SPEX CertiPrep (Sb 1000 µg mL⁻¹ in 20% w/w HCl, batch number 24-175SBX)",
+          "instrument": "HG-MC-ICP-MS (Neptune Plus)",
+          "session_date": "2021",
+          "notes": "n=3, ± 2σ; in-house SPEX standard; Ferrari et al. (2025) Water Air Soil Pollut 236:790; DOI 10.1007/s11270-025-08445-6"
+        }
+      ],
+      "geochem_data": [
+        {
+          "element": "Sb",
+          "value_normalized": 41,
+          "uncertainty": null,
+          "display_value": 41,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        },
+        {
+          "element": "S",
+          "value_normalized": 208599,
+          "uncertainty": null,
+          "display_value": 208599,
+          "display_unit": "mg/kg",
+          "method": "ICP-MS",
+          "depth_m": null
+        }
+      ],
+      "physico_data": []
+    }
+  ],
+  "methods": {
+    "sb-digestion-microondes-solides-2021": {
+      "name": "Microwave digestion of solid matrices (HNO₃-HF-HCl)",
+      "type": "digestion",
+      "element": "Sb",
+      "target_matrices": [
+        "Sediments",
+        "Rocks",
+        "Ores",
+        "Soils",
+        "Fly ash"
+      ],
+      "duration": "About 1 h (program) then evaporation",
+      "duration_hours": 2,
+      "yield_min_pct": 90,
+      "yield_max_pct": 110,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": "HNO₃ (3 mL), HF (1 mL), HCl (1 mL)",
+        "temperature": "200 °C"
+      },
+      "steps": [
+        {
+          "title": "Weighing",
+          "detail": "50 mg of sediment or solid material, in a PTFE tube."
+        },
+        {
+          "title": "Microwave program (UltraWAVE)",
+          "detail": "Ramp to 200 °C in 25 min, 10 min hold."
+        },
+        {
+          "title": "Evaporation and recovery",
+          "detail": "Evaporation at 75 °C max, recovery in 1.5 M HNO₃."
+        }
+      ],
+      "reference": {
+        "doi": "10.1039/d0ja00452a",
+        "citation": "Ferrari et al. (2021) J. Anal. At. Spectrom. 36, 776-785"
+      },
+      "notes": "Sediment protocol from Ferrari et al. (2021)."
+    },
+    "sb-digestion-mes-filtres-2025": {
+      "name": "Hot-plate digestion of SPM filters (HNO₃-HF)",
+      "type": "digestion",
+      "element": "Sb",
+      "target_matrices": [
+        "Suspended particulate matter"
+      ],
+      "duration": "24 h at 100 °C then evaporation",
+      "duration_hours": 24,
+      "yield_min_pct": null,
+      "yield_max_pct": null,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": "Concentrated HNO₃ (4 mL), concentrated HF (3 mL)",
+        "temperature": "100 °C"
+      },
+      "steps": [
+        {
+          "title": "Filter dissolution",
+          "detail": "PVDF filters loaded with SPM, in a PTFE vial, 24 h on a hot plate at 100 °C."
+        },
+        {
+          "title": "Evaporation",
+          "detail": "Evaporation to dryness."
+        },
+        {
+          "title": "Recovery",
+          "detail": "Recovery in 30 mL of 1.5 M HNO₃."
+        }
+      ],
+      "reference": {
+        "doi": "10.1007/s11270-025-08445-6",
+        "citation": "Ferrari et al. (2025) Water Air Soil Pollut 236:790"
+      },
+      "notes": "Digestion specific to SPM filters."
+    },
+    "sb-purification-tsp-2021": {
+      "name": "Single-step Sb purification on thiol mesoporous silica (TSP)",
+      "type": "purification",
+      "element": "Sb",
+      "target_matrices": [
+        "Waters",
+        "Sediments",
+        "Suspended particulate matter"
+      ],
+      "duration": "About half a day",
+      "duration_hours": 5,
+      "yield_min_pct": 93,
+      "yield_max_pct": 107,
+      "equipment": {
+        "column": "SPE cartridge 1 mL (Supelco)",
+        "resin": "Thiol mesoporous silica (TSP, Sikémia)",
+        "resin_volume_ml": "0.2 g",
+        "reagents": "HCl 0.5 / 2.5 / 6 M; KI-ascorbic acid 10% w/v",
+        "temperature": "Ambient"
+      },
+      "steps": [
+        {
+          "title": "Sb(V) to Sb(III) reduction",
+          "detail": "KI-ascorbic acid 0.5% w/v, 3 h."
+        },
+        {
+          "title": "Loading",
+          "detail": "100 ng of Sb in 0.5 M HCl + KI/AA."
+        },
+        {
+          "title": "Rinse",
+          "detail": "5 mL 0.5 M HCl then 6 mL 2.5 M HCl."
+        },
+        {
+          "title": "Elution",
+          "detail": "6 mL 6 M HCl."
+        }
+      ],
+      "reference": {
+        "doi": "10.1039/d0ja00452a",
+        "citation": "Ferrari et al. (2021) J. Anal. At. Spectrom. 36, 776-785"
+      },
+      "notes": "Sb recovery 103-107% checked by ICP-MS."
+    },
+    "sb-analyse-d123sb-hg-mc-icpms-2021": {
+      "name": "δ123Sb measurement by HG-MC-ICP-MS",
+      "type": "analysis",
+      "element": "Sb",
+      "target_matrices": [
+        "Waters",
+        "Sediments",
+        "Suspended particulate matter"
+      ],
+      "duration": "About 7 min per measurement",
+      "duration_hours": null,
+      "yield_min_pct": null,
+      "yield_max_pct": null,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": "NaBH₄ 1% w/v in NaOH 0.05% w/v; HCl 3 M; KI/AA 0.5% w/v",
+        "temperature": "Ambient"
+      },
+      "steps": [
+        {
+          "title": "Preparation",
+          "detail": "Dilution to 2 µg/L Sb in 3 M HCl + KI/AA, at least 3 h before analysis."
+        },
+        {
+          "title": "Hydride generation",
+          "detail": "HydrideICP module (Elemental Scientific), pump 20 rpm, sample gas flow 0.95 L/min."
+        },
+        {
+          "title": "Acquisition",
+          "detail": "Neptune (Thermo), 1080 W, skimmer X / sample Jet cones; 120Sn, 121Sb, 122Sn, 123Sb, 126Te; uptake 140 s; 1 block of 80 cycles, integration 4.194 s; SPEX standard bracketing, 3 measurements."
+        },
+        {
+          "title": "Calculation",
+          "detail": "Deviation from the bracketing standard, in per mil (‰)."
+        }
+      ],
+      "reference": {
+        "doi": "10.1039/d0ja00452a",
+        "citation": "Ferrari et al. (2021) J. Anal. At. Spectrom. 36, 776-785"
+      },
+      "notes": "Settings optimized in 2021 (Ferrari et al. 2023); 121Sb sensitivity 0.8 V/ppb (Table S2)."
+    },
+    "sb-dosage-icpms-2021": {
+      "name": "Sb, Fe and S quantification by ICP-MS",
+      "type": "analysis",
+      "element": "Sb",
+      "target_matrices": [
+        "Waters",
+        "Sediments",
+        "Suspended particulate matter"
+      ],
+      "duration": "Analytical routine",
+      "duration_hours": null,
+      "yield_min_pct": null,
+      "yield_max_pct": null,
+      "equipment": {
+        "column": null,
+        "resin": null,
+        "resin_volume_ml": null,
+        "reagents": "0.15 M HNO₃; He gas (KED)",
+        "temperature": "Ambient"
+      },
+      "steps": [
+        {
+          "title": "Preparation",
+          "detail": "Dilution in 0.15 M HNO₃."
+        },
+        {
+          "title": "Measurement",
+          "detail": "ICP-MS (iCAP-TQ), KED mode; QC with CRMs (SLRS-6, PACS-3, GSD-3)."
+        }
+      ],
+      "reference": {
+        "doi": "10.1007/s11270-025-08445-6",
+        "citation": "Ferrari et al. (2025) Water Air Soil Pollut 236:790"
+      },
+      "notes": "Sb, Fe and S; Fe and S are AMD contamination markers. Sb(III)/Sb(V) speciation by HPLC-ICP-MS."
+    }
+  },
+  "pipelines": {
+    "prep-waters": {
+      "name": "Water preparation",
+      "element": "Sb",
+      "description": "Waters and drinking waters: direct purification then measurement.",
+      "stages": [
+        {
+          "order": 1,
+          "method_key": "sb-purification-tsp-2021",
+          "label": "Purification"
+        },
+        {
+          "order": 2,
+          "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+          "label": "Isotopic measurement"
+        }
+      ]
+    },
+    "prep-spm": {
+      "name": "SPM preparation",
+      "element": "Sb",
+      "description": "Suspended particulate matter: filter digestion, purification, measurement.",
+      "stages": [
+        {
+          "order": 1,
+          "method_key": "sb-digestion-mes-filtres-2025",
+          "label": "Digestion"
+        },
+        {
+          "order": 2,
+          "method_key": "sb-purification-tsp-2021",
+          "label": "Purification"
+        },
+        {
+          "order": 3,
+          "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+          "label": "Isotopic measurement"
+        }
+      ]
+    },
+    "prep-solids": {
+      "name": "Solids preparation",
+      "element": "Sb",
+      "description": "Sediments, wastes, slags: microwave digestion, purification, measurement.",
+      "stages": [
+        {
+          "order": 1,
+          "method_key": "sb-digestion-microondes-solides-2021",
+          "label": "Digestion"
+        },
+        {
+          "order": 2,
+          "method_key": "sb-purification-tsp-2021",
+          "label": "Purification"
+        },
+        {
+          "order": 3,
+          "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+          "label": "Isotopic measurement"
+        }
+      ]
+    }
+  },
+  "purification": {},
+  "assignments": [
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-sj1-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-17",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-sj1-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-17",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-sj1-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-17",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-sj1-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-sj1-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-sj1-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr1-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr1-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr1-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr1-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr1-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr1-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr2-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr2-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr2-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr2-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr2-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr2-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr3-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr3-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr3-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr3-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr3-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cr3-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-luu-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-luu-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-luu-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-luu-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-luu-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-luu-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-v1-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-v1-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-v1-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-v2-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-v2-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-v2-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-urb-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-27",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-urb-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-27",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-urb-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-27",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-par-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-26",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-par-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-26",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-par-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-26",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cc-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cc-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-water-cc-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-sj1-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-sj1-2021",
+      "method_key": "sb-digestion-mes-filtres-2025",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-sj1-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-sj1-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr1-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr1-2021",
+      "method_key": "sb-digestion-mes-filtres-2025",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr1-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr1-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr2-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr2-2021",
+      "method_key": "sb-digestion-mes-filtres-2025",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr2-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr2-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr3-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr3-2021",
+      "method_key": "sb-digestion-mes-filtres-2025",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr3-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-cr3-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-luu-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-luu-2021",
+      "method_key": "sb-digestion-mes-filtres-2025",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-luu-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-spm-luu-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-spm",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-17",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2019",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-17",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-17",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-17",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-sj1-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2019",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr1-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-29",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2019",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr2-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-28",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2019",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cr3-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-25",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2019",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-18",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-luu-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-24",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2019",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v1-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2019",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2019",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2019",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2019",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2019-04-19",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-v2-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-urb-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-27",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-urb-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-27",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-urb-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-27",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-urb-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-27",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-par-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-26",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-par-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-26",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-par-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-26",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-par-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-26",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cc-2021",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cc-2021",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cc-2021",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-sediment-cc-2021",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10-30",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw0",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": null,
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw1",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw1",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw1",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw2",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw2",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw2",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw3",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw3",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-drinking-water-dw3",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-waters",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-1",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-1",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-1",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-1",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-2",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-2",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-2",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-mine-waste-san-jose-2",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-slag-vinto",
+      "method_key": "sb-dosage-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-slag-vinto",
+      "method_key": "sb-digestion-microondes-solides-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-slag-vinto",
+      "method_key": "sb-purification-tsp-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    },
+    {
+      "sample_id": "oruro-bolivia-sb-2025-slag-vinto",
+      "method_key": "sb-analyse-d123sb-hg-mc-icpms-2021",
+      "pipeline_key": "prep-solids",
+      "assigned_at": "2021-10",
+      "assigned_by": "Ferrari et al. (2025)"
+    }
+  ],
+  "signature": {
+    "level": 2,
+    "algorithm": "ECDSA-P256-SHA256",
+    "signed_scope": [
+      "created_by",
+      "samples",
+      "methods",
+      "purification"
+    ],
+    "signature_b64": "MEUCIQDiXqbRmFIDpRxaKCkrf5nTGzHG24OgfCphF3hBTxoKEAIgF9W7CwMuyMaGqHAhR7739TOsQigePjubMRGfLTMHz7Y=",
+    "certificate_chain": [
+      "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUNORENDQWRtZ0F3SUJBZ0lVRUovUlQ1bi91aW9kVDV2RktuS2JtcjVzZmNrd0NnWUlLb1pJemowRUF3SXcKZ2FVeEN6QUpCZ05WQkFZVEFrWlNNUkl3RUFZRFZRUUlEQWxQWTJOcGRHRnVhV1V4RkRBU0JnTlZCQW9NQzBsegpiMFpwYm1RZ1UwRlRNVEF3TGdZRFZRUUxEQ2RKYzI5R2FXNWtJRWx6YzNWcGJtY2dRMlZ5ZEdsbWFXTmhkR2x2CmJpQkJkWFJvYjNKcGRIa3hHekFaQmdOVkJBTU1Fa2x6YjBacGJtUWdTWE56ZFdsdVp5QkRRVEVkTUJzR0NTcUcKU0liM0RRRUpBUllPY0d0cFFHbHpiMlpwYm1RdWFXOHdIaGNOTWpZd05qSTBNVFEwTXpFeldoY05Namd3T1RJMgpNVFEwT0RFeldqQVdNUlF3RWdZRFZRUUREQXRKYzI5R2FXNWtJRk5CVXpCWk1CTUdCeXFHU000OUFnRUdDQ3FHClNNNDlBd0VIQTBJQUJIdk1QclBsd3g4TVlpS0RmZkhTRkFidG9LZXhFM0YxM3NkYTRrYnloNytiTGppdDUzcTQKUkgyd21VaWpvOU9zcGF0WW1BejNTYWpNcTRpeHk1Z05ucTJqZFRCek1Bd0dBMVVkRXdFQi93UUNNQUF3RGdZRApWUjBQQVFIL0JBUURBZ2JBTUJNR0ExVWRKUVFNTUFvR0NDc0dBUVVGQndNRE1CMEdBMVVkRGdRV0JCVFJFQ3NxCnRmRVh6a0ZhWmVuVHZ4TUpnQkhpTVRBZkJnTlZIU01FR0RBV2dCUmVNVndWTml5K3JySm4xRUNjNzd5aTNxTXgKMWpBS0JnZ3Foa2pPUFFRREFnTkpBREJHQWlFQWh5SnppbGJHZ2l2ZUtJcWxPRjBhalJYQW1YOEtVL2dMbTN2QgpTMnpjVlJnQ0lRRE5HRzRCTDB5cjFScC90OEVpMEhVSjNuTnM5bWMxb201K21ZWXlPcHgwaVE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+      "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVwekNDQW8rZ0F3SUJBZ0lDRUFBd0RRWUpLb1pJaHZjTkFRRUxCUUF3Z2E0eEN6QUpCZ05WQkFZVEFrWlMKTVJJd0VBWURWUVFJREFsUFkyTnBkR0Z1YVdVeERUQUxCZ05WQkFjTUJFWnZhWGd4RkRBU0JnTlZCQW9NQzBsegpiMFpwYm1RZ1UwRlRNUzB3S3dZRFZRUUxEQ1JKYzI5R2FXNWtJRkp2YjNRZ1EyVnlkR2xtYVdOaGRHbHZiaUJCCmRYUm9iM0pwZEhreEdEQVdCZ05WQkFNTUQwbHpiMFpwYm1RZ1VtOXZkQ0JEUVRFZE1Cc0dDU3FHU0liM0RRRUoKQVJZT2NHdHBRR2x6YjJacGJtUXVhVzh3SGhjTk1qWXdNekV3TVRRME5ERXlXaGNOTXpFd016QTVNVFEwTkRFeQpXakNCcFRFTE1Ba0dBMVVFQmhNQ1JsSXhFakFRQmdOVkJBZ01DVTlqWTJsMFlXNXBaVEVVTUJJR0ExVUVDZ3dMClNYTnZSbWx1WkNCVFFWTXhNREF1QmdOVkJBc01KMGx6YjBacGJtUWdTWE56ZFdsdVp5QkRaWEowYVdacFkyRjAKYVc5dUlFRjFkR2h2Y21sMGVURWJNQmtHQTFVRUF3d1NTWE52Um1sdVpDQkpjM04xYVc1bklFTkJNUjB3R3dZSgpLb1pJaHZjTkFRa0JGZzV3YTJsQWFYTnZabWx1WkM1cGJ6QlpNQk1HQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VICkEwSUFCSmxGdHNEdi9VVWthaHRUa0syOVdIaWZ1QWtuWWJ6Q2duT3VYWXd2Vmt4N1FHZVl5UnVTMDhjWDlWODUKQUNaNzB5blQ1emdNM3BGVDg0RGRhMzM5eXJ1amdhQXdnWjB3SFFZRFZSME9CQllFRkY0eFhCVTJMTDZ1c21mVQpRSnp2dktMZW96SFdNQjhHQTFVZEl3UVlNQmFBRkFFMEtZMHBPWXR4b2xDQTc0djhrd3d5UEcyUU1CSUdBMVVkCkV3RUIvd1FJTUFZQkFmOENBUUF3RGdZRFZSMFBBUUgvQkFRREFnRUdNRGNHQTFVZEh3UXdNQzR3TEtBcW9DaUcKSm1oMGRIQnpPaTh2Y0d0cExtbHpiMlpwYm1RdWFXOHZZM0pzTDNKdmIzUXRZMkV1WTNKc01BMEdDU3FHU0liMwpEUUVCQ3dVQUE0SUNBUUFSRmtTd3lNeWxaNEdQVG9sbEQ1RUFvUkEza2MxOTMrc1dFbC83cVF3SVB6OEhCYnBBCmtxU2VIMElFK0lVazIxZW1jd2w5YTVRb1RzTnFqMmI4YWQzUHhQWUprY1E3TVF4b0hQYmphcnhRWi9OWTl0WXYKQWRWUDhYZjJJTU5iTWlZVndFb2x4SThTaXBNZDhqQXpGaTZqTkliazFCYmp5U21CTGZ4TXNHem1IQjk4Sm1vQwpkZ1BBTTcwUXVObEkwQlNGSDdtTm5UOHl1ZnpsQ1NnNjl6bTZQTHVqWUtENGFWc21xSmZFanJLb21Jb2FFdVZLCmY0UWdQRFM1bWU1OEVPRHBsQU5WcThDWitPTVRzdkh0eExVd1Y2VlNiRHVrNHJHN2hWZ3dYbkgxWmdVdEdLb2gKeERzVEdsR21JMUkzR1Z5SUZoOFlXWVcwWDR1UHliSHNvUXRiSXN2WTJxdkp3RnF2UHkraG4zTUhUNndYN2lzNQpFeWFKS1l4dnJ0MEJ4TzJ5OVZCdXQybkkyaHhmWmticVVsZHBiQWpLUWlaUHFhZHdlNHl2c2NsdmdhNVE0L2lyCndDMHM4WlgzYk8rYUs3dnYxWWdjOE42bjdQdW1WeVFLTEJadEh5Q3VNaDNqTXJmTmZ2LzhHM1FmSzlKd1VTQ0UKajMrNkQvYzlzZUE0UThxeThPdVUrSFY2cUxLMzFyWHMrTXdkQmI3cnVWWWJteGhIa1dxODJJRnlpalFiOENZQQoxb09pa24zL2ZEYnFKaXhuTFlPZGl5SXZsQlIzcGN6RG05SWRUaXVnbXQ4R20yOXlMV2dhNTErU3FaUCtWQWpJCnNKNVlSaW4ySGtNWUt4d1k4eU9BeXJzQVIrU1BiT3gzOUFTa1JPb2pqbHJNZktRRnZzTHQzb3d2Rmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
+    ],
+    "signed_at": "2026-06-24T14:48:13+00:00",
+    "signed_by": "IsoFind SAS"
+  }
+}

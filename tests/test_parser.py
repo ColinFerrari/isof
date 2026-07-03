@@ -558,3 +558,32 @@ def test_to_pandas_missing_if_not_installed(monkeypatch):
     doc = isof.load(BOLIVIE)
     with pytest.raises(ImportError, match="pip install"):
         doc.to_pandas()
+
+
+# ---------------------------------------------------------------------------
+# Robustesse : champs de haut niveau et 'project' textuel (fichier reel Oruro)
+# Robustness: top-level fields and string 'project' (real Oruro file)
+# ---------------------------------------------------------------------------
+
+def test_project_as_string_is_accepted():
+    # Le fichier Oruro stocke 'project' comme une chaine, pas comme un objet.
+    doc = isof.load(FIXTURES / "oruro-bolivia-sb-2025.isof")
+    assert doc.project is not None
+    assert isinstance(doc.project.name, str)
+    assert "Oruro" in doc.project.name
+
+
+def test_top_level_doi_date_location_are_read():
+    doc = isof.load(FIXTURES / "oruro-bolivia-sb-2025.isof")
+    assert doc.doi == "10.1007/s11270-025-08445-6"
+    assert doc.date == "2025"
+    assert doc.location is not None
+    assert doc.location.name == "Oruro"
+    assert doc.location.country == "Bolivia"
+
+
+def test_oruro_level2_signature_is_valid():
+    doc = isof.load(FIXTURES / "oruro-bolivia-sb-2025.isof")
+    result = doc.verify()
+    assert result.valid is True
+    assert result.level == 2

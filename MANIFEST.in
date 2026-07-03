@@ -18,6 +18,9 @@ recursive-include isof/trust *.pem *.md
 recursive-include tests *.py
 recursive-include tests/fixtures *.isof *.pem
 
+# Fichier(s) d'exemple : artefact reel signe, distribue pour illustration.
+recursive-include examples *.isof
+
 # Exclusions : artefacts locaux, caches, runners internes à l'env de dev.
 exclude run_tests.py
 exclude build_fixtures.py

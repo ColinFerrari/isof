@@ -7,7 +7,8 @@ Deux niveaux de signature coexistent dans le format :
         Garantit que le fichier n'a pas été modifié après export.
         N'authentifie pas l'émetteur, n'importe qui peut recalculer le hash.
 
-    Niveau 2 : ECDSA P-256 avec certificat X.509 émis par IsoFind SAS.
+    Niveau 2 : ECDSA P-256 avec certificat X.509 émis par IsoFind ou par une.
+    autre autorité de confiance.
         Authentifie le laboratoire émetteur via la PKI IsoFind.
         Le certificat laboratoire est signé par l'Issuing CA IsoFind,
         elle-même signée par la Root CA embarquée dans ce package.
@@ -16,7 +17,7 @@ La vérification niveau 2 fonctionne hors-ligne : le Root CA et l'Issuing CA
 sont inclus dans le package (dossier trust/). Aucune requête réseau n'est faite.
 
 Le mécanisme de signature est strictement identique pour les fichiers v1.0,
-v1.1 et v1.2 : le scope porte sur les blocs de haut niveau (samples, methods,
+v1.1, v1.2 et v1.3 : le scope porte sur les blocs de haut niveau (samples, methods,
 purification, created_by...) dont le contenu a pu évoluer, mais la structure
 du bloc signature elle-même n'a pas changé.
 **********************************************************************
@@ -28,7 +29,8 @@ Two signature levels coexist in the format:
         Guarantees that the file has not been modified after export.
         Does not authenticate the sender; anyone can recalculate the hash.
 
-    Level 2: ECDSA P-256 with an X.509 certificate issued by IsoFind SAS.
+    Level 2: ECDSA P-256 with an X.509 certificate issued by IsoFind or by
+    another trust authority.
         Authenticates the sending laboratory via the IsoFind PKI.
         The laboratory certificate is signed by the IsoFind Issuing CA,
         which is itself signed by the Root CA embedded in this package.
@@ -36,7 +38,7 @@ Two signature levels coexist in the format:
 Level 2 verification works offline: the Root CA and the Issuing CA
 are included in the package (trust/ folder). No network requests are made.
 
-The signature mechanism is strictly identical across v1.0, v1.1 and v1.2
+The signature mechanism is strictly identical across v1.0, v1.1, v1.2 and v1.3
 files: the scope covers top-level blocks (samples, methods, purification,
 created_by...) whose content may have evolved, but the signature block
 structure itself has not changed.
@@ -122,7 +124,7 @@ def _canonicalize(payload: dict) -> bytes:
     Sérialisation déterministe pour le hachage.
 
     On utilise separators=(',', ':') pour correspondre exactement à
-    JSON.stringify(payload, null, 0) côté JavaScript (logiciel isoFind).
+    JSON.stringify(payload, null, 0) côté JavaScript.
     Les clés ne sont pas triées ici, le JS ne les trie pas non plus
     dans signDocument(). Si ce comportement change dans une future version
     du format, ce sera indiqué dans la spec ISOF.
@@ -130,7 +132,7 @@ def _canonicalize(payload: dict) -> bytes:
     Deterministic serialization for hashing.
 
     We use `separators=(',', ':')` to exactly match
-    `JSON.stringify(payload, null, 0)` on the JavaScript side (isoFind software).
+    `JSON.stringify(payload, null, 0)` on the JavaScript side.
     The keys are not sorted here, nor is the JS sorted
     in `signDocument()`. If this behavior changes in a future version
     of the format, it will be specified in the ISOF specification.
@@ -141,14 +143,8 @@ def _canonicalize(payload: dict) -> bytes:
 def _verify_level1(raw_doc: dict, sig: Signature) -> VerificationResult:
     """
     Vérification SHA-256, niveau 1.
-
-    On reconstruit le payload tel qu'il a été haché à l'export :
-    uniquement les blocs listés dans sig.scope, dans cet ordre.
     *******************************************************************
     SHA-256 verification, level 1.
-
-    We reconstruct the payload as it was hashed during export:
-    only the blocks listed in sig.scope, in that order.
     """
     if not sig.hash:
         raise ISOfSignatureError("Signature niveau 1 sans champ 'hash'")
@@ -163,7 +159,7 @@ def _verify_level1(raw_doc: dict, sig: Signature) -> VerificationResult:
         )
     return VerificationResult(
         valid=False, level=1,
-        reason="Hash SHA-256 non concordant — données modifiées après signature",
+        reason="Hash SHA-256 non concordant, données modifiées après signature",
         signer=sig.signed_by, signed_at=sig.signed_at
     )
 
@@ -174,21 +170,11 @@ def _verify_level2(raw_doc: dict, sig: Signature) -> VerificationResult:
 
     La chaîne de confiance attendue est :
       IsoFind Root CA → IsoFind Issuing CA → certificat laboratoire
-
-    Le certificat laboratoire doit être présent dans sig.certificate_pem.
-    Si sig.certificate_chain contient l'Issuing CA (index 1), on l'utilise
-    directement — ce qui permet la vérification avec des PKI de test sans
-    modifier le dossier trust/ du package.
     **********************************************************************
     ECDSA P-256 verification with IsoFind PKI chain, level 2.
 
     The expected chain of trust is:
       IsoFind Root CA → IsoFind Issuing CA → lab certificate
-
-    The lab certificate must be present in sig.certificate_pem.
-    If sig.certificate_chain contains the Issuing CA (index 1), it is used
-    directly — enabling verification with test PKIs without modifying the
-    package trust/ directory.
     """
     try:
         import base64 as _b64
@@ -257,7 +243,7 @@ def _verify_level2(raw_doc: dict, sig: Signature) -> VerificationResult:
     except InvalidSignature:
         return VerificationResult(
             valid=False, level=2,
-            reason="Invalid ECDSA signature — données modifiées après signature",
+            reason="Invalid ECDSA signature, data modified after signing",
             signer=sig.signed_by, signed_at=sig.signed_at
         )
     except Exception as e:
@@ -285,7 +271,7 @@ def _verify_chain(lab_cert, issuing_cert_pem: str | None = None) -> None:
 
     On ne fait pas de validation CRL ici, les fichiers ISOF sont conçus pour
     être vérifiables dans des environnements déconnectés. Si une révocation
-    est nécessaire, elle doit être gérée au niveau applicatif (IsoFind).
+    est nécessaire, elle doit être gérée au niveau applicatif.
     **************************************************************************
     Verify that the lab certificate is indeed signed by the IsoFind Issuing CA.
 
@@ -294,7 +280,7 @@ def _verify_chain(lab_cert, issuing_cert_pem: str | None = None) -> None:
 
     CRL validation is not performed here; ISOF files are designed to be verifiable
     in disconnected environments. If a revocation is necessary, it must be handled
-    at the application level (IsoFind).
+    at the application level.
     """
     from cryptography.hazmat.primitives.asymmetric import ec
     from cryptography.hazmat.primitives.hashes import SHA256

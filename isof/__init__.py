@@ -1,5 +1,5 @@
 """
-isof — Lecteur et vérificateur du format ISOF v1.0 / v1.1 / v1.2 | ISOF v1.0 / v1.1 / v1.2 reader and verificator
+isof, lecteur et vérificateur du format ISOF v1.0 / v1.1 / v1.2 | ISOF v1.0 / v1.1 / v1.2 reader and verificator
 
 Usage minimal : | minimal use :
 
@@ -39,6 +39,7 @@ from .models import (
     MoleculeRecord,
     PhysicoRecord,
     Pipeline,
+    Location,
     Project,
     PurificationYield,
     Sample,
@@ -46,13 +47,33 @@ from .models import (
 )
 from .parser import ISOfDocument, load_file, load_string
 from .signature import VerificationResult
+from .writer import (
+    make_geochem,
+    make_isotope,
+    make_molecule,
+    make_physico,
+    make_sample,
+    new_document,
+    sign_document,
+    sign_file,
+)
 
-__version__ = "0.2.0"
+__version__ = "0.4.0"
 __author__ = "Colin Ferrari"
 __all__ = [
     # Fonctions d'entrée principales | Main entry functions
     "load",
     "loads",
+    # Signature | Signing
+    "sign_document",
+    "sign_file",
+    # Construction | Building
+    "new_document",
+    "make_sample",
+    "make_isotope",
+    "make_geochem",
+    "make_physico",
+    "make_molecule",
     # Document
     "ISOfDocument",
     # Modèles | Models
@@ -66,6 +87,7 @@ __all__ = [
     "PurificationYield",
     "Assignment",
     "CreatedBy",
+    "Location",
     "Project",
     "Signature",
     "Encryption",
@@ -95,7 +117,7 @@ def load(path) -> ISOfDocument:
     Example: | Exemple :
         >>> report = isof.load("analyse_bolivie.isof")
         >>> print(report)
-        <ISOfDocument v1.2 — 12 échantillon(s) — IGE Grenoble>
+        <ISOfDocument v1.2, 12 échantillon(s), IGE Grenoble>
     """
     _, doc = load_file(path)
     return doc

@@ -1,6 +1,6 @@
 # isof
 
-Lecteur et vérificateur Python pour le format **ISOF v1.0 / v1.1 / v1.2** (**I**sotopic **S**ecure **O**pen **F**ormat), standard ouvert pour l'échange de données géochimiques et analytiques.
+Lecteur, vérificateur, signataire et constructeur Python pour le format **ISOF v1.0 / v1.1 / v1.2 / v1.3** (**I**sotopic **S**ecure **O**pen **F**ormat), standard ouvert pour l'échange de données géochimiques et analytiques.
 
 Le format ISOF permet d'échanger en un seul fichier :
 
@@ -33,13 +33,13 @@ Le format ISOF est utilisé par [IsoFind](https://isofind.tech), mais ce parser 
 ## Installation
 
 ```bash
-pip install isof
+py -m pip install isof
 ```
 
 Avec support pandas :
 
 ```bash
-pip install isof[pandas]
+py -m pip install isof[pandas]
 ```
 
 Requiert Python ≥ 3.9.
@@ -55,7 +55,7 @@ import isof
 
 report = isof.load("analyse.isof")
 print(report)
-# <ISOfDocument v1.2 — 12 échantillon(s) — IGE Grenoble>
+# <ISOfDocument v1.2, 12 échantillon(s), IGE Grenoble>
 ```
 
 Depuis une chaîne JSON (API, base de données) :
@@ -91,6 +91,49 @@ Deux niveaux de signature coexistent dans le format :
 | 2      | ECDSA P-256 + PKI IsoFind | Authenticité, signé par un laboratoire certifié par IsoFind |
 
 La vérification fonctionne **hors-ligne** : les certificats IsoFind sont embarqués dans le package.
+
+### Signer un document
+
+Le package peut aussi produire des artefacts signés. Les clés de signature ne sont jamais détenues par le package : l'appelant fournit sa propre clé privée et son certificat, et la clé privée ne quitte jamais la machine de l'appelant (seul le certificat public est embarqué dans l'artefact).
+
+```python
+import isof
+
+# Niveau 2 (ECDSA P-256) : nécessite la clé et le certificat de l'appelant.
+isof.sign_file(
+    "analyse_non_signee.isof",
+    "analyse_signee.isof",
+    level=2,
+    signed_by="Mon Laboratoire",
+    key_path="cle_labo.pem",
+    cert_path="cert_labo.pem",
+    issuing_cert_path="issuing_ca.pem",  # optionnel, embarque l'autorité de certification intermédiaire
+)
+
+# Niveau 1 (SHA-256) : intégrité seule, aucune clé requise.
+signed = isof.sign_document(document, level=1, signed_by="Mon Laboratoire")
+```
+
+Un certificat émis sous la PKI IsoFind est accepté par tout destinataire qui fait confiance à la racine IsoFind embarquée. Un certificat auto-émis produit une signature cryptographiquement valide, acceptée par un destinataire qui ajoute cette racine à ses ancres de confiance, ce qui correspond au modèle des PKI de test et des déploiements souverains.
+
+### Construire un document
+
+Le package peut assembler un document à partir de données brutes, offrant un chemin complet de la donnée jusqu'à l'artefact signé. Le constructeur ne fabrique rien : un champ non fourni reste `null`, jamais rempli par une valeur par défaut ou devinée. Seul l'échafaudage technique (version du format, horodatage de création, familles de données vides) est renseigné automatiquement.
+
+```python
+import isof
+
+iso = isof.make_isotope(element="Sb", system="123Sb/121Sb", ratio=0.46, ratio_2se=0.02)
+geo = isof.make_geochem(element="Sb", value_normalized=7824, display_unit="ug/L", method="ICP-MS")
+sample = isof.make_sample("OR-01", name="Oruro 1", matrix="water",
+                          isotope_data=[iso], geochem_data=[geo])
+
+document = isof.new_document([sample], created_by={"software": "my-script"})
+signed = isof.sign_document(document, level=2, signed_by="Mon Laboratoire",
+                            key_path="cle_labo.pem", cert_path="cert_labo.pem")
+```
+
+Seul `id` est requis pour un échantillon. Un enregistrement auquel manque son champ porteur de sens (`system`, `element`, `parameter`, `nom`) déclenche un avertissement plutôt qu'une erreur, car un fichier peut légitimement ne partager que certaines familles de données. Un champ inconnu est écarté avec un avertissement, de sorte qu'une faute de frappe ne peut pas créer silencieusement un champ signé.
 
 ### Déchiffrer un fichier chiffré (v1.2)
 
@@ -141,7 +184,7 @@ ph_record = s.physico_parameter("pH")
 if ph_record and ph_record.value < 5.0:
     print("Eau acide")
 
-# Filtrer — couvre les ratios isotopiques ET les concentrations géochim
+# Filtrer, couvre les ratios isotopiques et les concentrations géochim
 sources    = report.filter_samples(classification="source")
 sb_samples = report.filter_samples(element="Sb")
 combined   = report.filter_samples(element="Pb", material_type="Ore")
@@ -167,7 +210,7 @@ for y in yields:
 # Alertes contamination (rendement > 105 %)
 suspects = report.suspicious_yields()
 for y in suspects:
-    print(f"Contamination possible — {y.sample_id} / {y.element} : {y.value_pct}%")
+    print(f"Contamination possible, {y.sample_id} / {y.element} : {y.value_pct}%")
 ```
 
 ### Méthodes et pipelines
@@ -175,7 +218,7 @@ for y in suspects:
 ```python
 # Méthodes de préparation
 for key, method in report.methods.items():
-    print(f"{key} — {method.name} ({method.type})")
+    print(f"{key} : {method.name} ({method.type})")
     if method.yield_min_pct:
         print(f"  Rendement attendu : {method.yield_min_pct}–{method.yield_max_pct}%")
 
@@ -240,7 +283,7 @@ except ISOfVersionError as e:
 except ISOfParseError as e:
     print(f"Fichier invalide : {e}")
 
-# Signature corrompue vs. absente — deux cas distincts
+# Signature corrompue vs absente, deux cas distincts
 result = report.verify()
 if result.level == 0:
     print("Pas de signature dans ce fichier")
@@ -291,8 +334,8 @@ Spécification complète : [isofind.tech/isof-spec](https://isofind.tech/isof-sp
 ```bash
 git clone https://github.com/ColinFerrari/isof
 cd isof
-pip install -e ".[dev]"
-pytest tests/ -v
+py -m pip install -e ".[dev]"
+py -m pytest tests/ -v
 ```
 
 ---

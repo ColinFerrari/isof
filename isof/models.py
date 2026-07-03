@@ -2,7 +2,7 @@
 Modèles de données du format ISOF v1.0 / v1.1 / v1.2.
 
 Ces dataclasses sont en lecture seule (frozen=True) parce qu'un document
-chargé depuis un fichier signé ne devrait jamais être modifié en mémoire —
+chargé depuis un fichier signé ne devrait jamais être modifié en mémoire,
 toute modification rendrait la vérification de signature caduque.
 Pour créer des documents, voir isof.writer.
 
@@ -251,7 +251,7 @@ class Sample:
         Elements measured in this sample, without duplicates, sorted.
 
         Combines elements found in isotope_data and geochem_data: a sample
-        can have Pb measured isotopically and As measured as concentration —
+        can have Pb measured isotopically and As measured as concentration,
         both count as sample elements.
         """
         seen: list[str] = []
@@ -460,6 +460,19 @@ class Project:
     notes: Optional[str]
 
 
+@dataclass(frozen=True)
+class Location:
+    """
+    Situation geographique de l'etude, telle que stockee au niveau du document.
+    Les deux champs sont facultatifs, un fichier peut n'indiquer que le pays.
+    **************************************************************************
+    Geographic setting of the study, as stored at the document level.
+    Both fields are optional, a file may indicate only the country.
+    """
+    name: Optional[str]
+    country: Optional[str]
+
+
 # ---------------------------------------------------------------------------
 # Signature
 # ---------------------------------------------------------------------------
@@ -489,7 +502,7 @@ class Signature:
     signed_at: Optional[str]
     signed_by: Optional[str]       # organization or CN certificate
     contact: Optional[str]
-    # Niveau 2 — champs PKI
+    # Niveau 2, champs PKI
     certificate_pem: Optional[str] = None
     certificate_chain: Optional[str] = None
 
